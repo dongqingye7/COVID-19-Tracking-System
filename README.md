@@ -7,6 +7,9 @@
 
 Team members names and links to profiles (websites, LinkedIn, GitHub, Twitter, etc.)
 
+<img src="./images/Dashboard.png" width="700" >
+
+
 ## Table of Contents
 
 [What is *COVID-19 Tracking System*?](#intro)    
@@ -33,30 +36,95 @@ It includes following features:
 + WHO Daily Reports (categorizing by date)
 + About COVID-19 
 
-This projects uses open data source from [Centers for Disease Control and Prevention(CDC)](https://www.cdc.gov/coronavirus/2019-nCoV/summary.html), [Johns Hopkins University Center for Systems Science and Engineering (JHU CSSE)](https://github.com/CSSEGISandData/COVID-19), and [Word Health Organization(WHO)](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports). Whenever the system starts running, it will fetch the real-time data from these open data source and update accordingly. The data including the location and number of confirmed COVID-19 cases, deaths, and recoveries will be updated everyday.
+This projects uses open data source from [Centers for Disease Control and Prevention(CDC)](https://www.cdc.gov/coronavirus/2019-nCoV/summary.html), [Johns Hopkins University Center for Systems Science and Engineering (JHU CSSE)](https://github.com/CSSEGISandData/COVID-19), and [Word Health Organization(WHO)](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports). Whenever the system starts running, it will fetch the real-time data from these open data source and update accordingly. The data including the location and number of confirmed COVID-19 cases, deaths, and recoveries will be updated everyday.
 
 
 ## <a name="importance"></a>Why is this important?
 
 Write about the significance of the project and how it relates to the hackathon theme.
 
-In December 2019, an outbreak of respiratory disease caused by a novel (new) coronavirus that was first detected in China and which has now been detected in almost 90 locations internationally, including in the United States. 
+In December 2019, an outbreak of respiratory disease caused by a novel (new) coronavirus that was first detected in China and which has now been detected in almost 90 locations internationally, including in the United States. 
 
 In response to this ongoing public health emergency, we developed this project to provide a user-friendly tool to track the outbreak as it unfolds. The real-time information analysis reveals the rapid spreading of the disease which will certainly have a great impact on the public’s “movement“. 
 
-It is important to ensure easy accessibility of such information for both domestic and international travelers for decision making. We believe our effort in building the COVID-19 Tracking System makes this information accessible and crucial to help people stay aware and prevent, well in advance, from suffering health problems during the earliest stages of the outbreak.
+It is important to ensure easy accessibility of such information for both domestic and international travelers for decision making. We believe our effort in building the COVID-19 Tracking System makes this information accessible and crucial to help people stay aware and prevent, well in advance, from suffering health problems during the earliest stages of the outbreak.
 
 ## <a name="workflow"></a>*COVID-19 Tracking System* Workflow
 
+---
+
 Write about how the project was completed, including assumptions made, how any data was joined or parsed, and other features explaining functionality, design, and workflow. Include any dependencies. Write in layman's terms.
 
-### System Design
+
+
+### 1. System Design
 ![Image of System design](./images/System_design.png)
 
-### Web Page Structure
+---
 
-![Image Web Page Structure](./images/Web_Page_Structure.png)
+### 2. Web Page Structure
 
+<img src="./images/Web_Page_Structure.png" width="700" >
+
+#### Dashboard
+This "Dashboard" page aims to provide an overview of COVID-19 outbreak in US. The data is updated daily.
+
+<img src="./images/Dashboard.png" width="700" >
+
+It shows the following informations:
++ Total number of Confirmed Cases(US)
++ Total number of Deaths Cases(US)
++ Total number of Recovered Cases(US)
+
++ Weekly Cumulative Cases Tracking (line chart)
+    + Confirmed
+    + Deaths
+    + Recovered
+
++ Monthly New Reported Cases Tracking (bar chart)
+    + Confirmed
+    + Deaths
+    + Recovered
+
+#### US Map
+This "US Map" page aims to provide a visiualized overview of the locations in US that have confirmed cases. The data is updated daily.
+
+<img src="./images/US_Map.png" width="700" >
+
+
+#### State Cases
+This "State Cases" page aims to provide a table with detailed information for cases categorized by State/County. User can sort the rows based on the attribute selected.
+The data is updated daily.
+
+<img src="./images/State_Cases.png" width="700" >
+
+Each rows includes following information:
++ State
++ County
++ Confirmed
++ Deaths
++ Recovered
+
+#### Travel Advice
+
+This "Travel Advice" page aims to provide the crucial travel information or travelers and travel related industries. This includes information of the countries with different risk assessment level for COVID-19 according to Centers for Disease Control and Prevention(CDC), and it also provides links to the CDS Travel Information. 
+The data is updated daily.
+
+<img src="./images/Travel_Advice.png" width="700" >
+
+#### WHO Daily Report
+This "WHO Daily Report" page aims to provide daily updated Situation reports from Word Health Organization(WHO). User can select date from the calender on the right to view the corresponding WHO report. 
+
+<img src="./images/WHO_Daily_Report.png" width="700" >
+
+#### About COVID-19
+This "About COVID-19" page aims to provide the general information about Coronavirus Disease 2019 (COVID-19) according to Centers for Disease Control and Prevention(CDC). 
+
+<img src="./images/About_COVID_19.png" width="700" >
+
+It shows the following informations:
++ What is a Conronavirus (COVID-19)?
++ Source and spread of virus.
 
 ## <a name="install"></a>Installing ViruSpy
 Write the full steps for installation for someone who is not a programmer, including links and steps for additional tools they need to have for your project to work.
@@ -69,6 +137,81 @@ Required software
 ## <a name="testing_and_validation"></a>ViruSpy Testing and Validation
 
 ## <a name="additional"></a>Additional Functionality
+
+
+```python
+
+```
+
+
+```python
+
+```
+
+
+```python
+
+```
+
+
+```python
+
+```
+
+
+```python
+
+```
+
+
+```python
+
+```
+
+
+```python
+
+```
+
+
+```python
+
+```
+
+
+```python
+
+```
+
+
+```python
+
+```
+
+
+```python
+
+```
+
+
+```python
+
+```
+
+
+```python
+
+```
+
+
+```python
+
+```
+
+
+```python
+
+```
 
 
 ```python
