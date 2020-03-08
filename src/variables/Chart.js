@@ -31,7 +31,7 @@ class Chart extends Component {
             <Card
             statsIcon="fa fa-history"
             id="chartHours"
-            title="Total Cases in US"
+            title="Weekly Total Cases in US"
             category="Daliy updates"
             stats={"Updated by "+dataCollectTime}
             content={

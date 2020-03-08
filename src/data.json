@@ -1,93 +1,93 @@
 {
-  "Date": "03-07-20",
+  "Date": "03-07-2020",
   "Total_US_data": {
-    "US_Total_Confirmed": 278,
-    "US_Total_Deaths": 14,
+    "US_Total_Confirmed": 417,
+    "US_Total_Deaths": 17,
     "US_Total_Recovered": 8
   },
   "US_Week_time": {
     "xlabel": [
-      "2/29/20",
       "3/1/20",
       "3/2/20",
       "3/3/20",
       "3/4/20",
       "3/5/20",
-      "3/6/20"
+      "3/6/20",
+      "3/7/20"
     ],
     "series_label": ["Confirmed", "Deaths", "Recovered"],
     "series": [
-      [70, 76, 101, 122, 153, 221, 278],
-      [1, 1, 6, 7, 11, 12, 14],
-      [7, 7, 7, 8, 8, 8, 8]
+      [76, 101, 121, 152, 220, 277, 417],
+      [1, 6, 7, 11, 12, 14, 17],
+      [7, 7, 8, 8, 8, 8, 8]
     ]
   },
   "US_Month_time": {
     "xlabel": [
-      "2/6/20",
-      "2/7/20",
-      "2/8/20",
-      "2/9/20",
-      "2/10/20",
-      "2/11/20",
-      "2/12/20",
-      "2/13/20",
-      "2/14/20",
-      "2/15/20",
-      "2/16/20",
-      "2/17/20",
-      "2/18/20",
-      "2/19/20",
-      "2/20/20",
-      "2/21/20",
-      "2/22/20",
-      "2/23/20",
-      "2/24/20",
-      "2/25/20",
-      "2/26/20",
-      "2/27/20",
-      "2/28/20",
-      "2/29/20",
-      "3/1/20",
-      "3/2/20",
-      "3/3/20",
-      "3/4/20",
-      "3/5/20",
-      "3/6/20"
+      "2/7",
+      "2/8",
+      "2/9",
+      "2/10",
+      "2/11",
+      "2/12",
+      "2/13",
+      "2/14",
+      "2/15",
+      "2/16",
+      "2/17",
+      "2/18",
+      "2/19",
+      "2/20",
+      "2/21",
+      "2/22",
+      "2/23",
+      "2/24",
+      "2/25",
+      "2/26",
+      "2/27",
+      "2/28",
+      "2/29",
+      "3/1",
+      "3/2",
+      "3/3",
+      "3/4",
+      "3/5",
+      "3/6",
+      "3/7"
     ],
     "series_label": ["Confirmed", "Deaths", "Recovered"],
     "series": [
       [
-        12,
-        12,
-        12,
-        12,
-        12,
-        13,
-        13,
-        15,
-        15,
-        15,
-        15,
-        15,
-        15,
-        15,
-        15,
-        35,
-        35,
-        35,
-        53,
-        53,
-        59,
-        60,
-        62,
-        70,
-        76,
-        101,
-        122,
-        153,
-        221,
-        278
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        20,
+        0,
+        0,
+        18,
+        0,
+        6,
+        1,
+        2,
+        8,
+        6,
+        25,
+        20,
+        31,
+        68,
+        57,
+        140
       ],
       [
         0,
@@ -112,469 +112,1455 @@
         0,
         0,
         0,
+        1,
         0,
+        5,
         1,
+        4,
         1,
-        6,
-        7,
-        11,
-        12,
-        14
+        2,
+        3
       ],
       [
         0,
         0,
+        3,
         0,
-        3,
-        3,
-        3,
-        3,
-        3,
-        3,
-        3,
-        3,
-        3,
-        3,
-        3,
-        3,
-        5,
-        5,
-        5,
-        5,
-        6,
-        6,
-        6,
-        7,
-        7,
-        7,
-        7,
-        8,
-        8,
-        8,
-        8
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
       ]
     ]
   },
   "US_location": [
     {
-      "Province/State": "King County, WA",
-      "Confirmed": 58,
-      "Deaths": 12,
+      "Confirmed": 71,
+      "Deaths": 15,
       "Recovered": 1,
+      "State": "WA",
+      "County": "King County",
       "center": { "lat": 47.548, "lng": -121.9836 }
     },
     {
-      "Province/State": "Unassigned Location (From Diamond Princess)",
-      "Confirmed": 45,
+      "Confirmed": 57,
       "Deaths": 0,
       "Recovered": 0,
-      "center": { "lat": 35.4437, "lng": 139.638 }
-    },
-    {
-      "Province/State": "Santa Clara, CA",
-      "Confirmed": 20,
-      "Deaths": 0,
-      "Recovered": 1,
-      "center": { "lat": 37.3541, "lng": -121.9552 }
-    },
-    {
-      "Province/State": "Snohomish County, WA",
-      "Confirmed": 19,
-      "Deaths": 1,
-      "Recovered": 0,
-      "center": { "lat": 48.033, "lng": -121.8339 }
-    },
-    {
-      "Province/State": "Westchester County, NY",
-      "Confirmed": 19,
-      "Deaths": 0,
-      "Recovered": 0,
+      "State": "NY",
+      "County": "Westchester County",
       "center": { "lat": 41.122, "lng": -73.7949 }
     },
     {
-      "Province/State": "New York County, NY",
-      "Confirmed": 16,
+      "Confirmed": 45,
       "Deaths": 0,
       "Recovered": 0,
-      "center": { "lat": 40.7128, "lng": -74.006 }
+      "State": "Unknwon",
+      "County": "Unknwon",
+      "center": { "lat": 35.4437, "lng": 139.638 }
     },
     {
-      "Province/State": "Los Angeles, CA",
-      "Confirmed": 13,
+      "Confirmed": 32,
+      "Deaths": 0,
+      "Recovered": 1,
+      "State": "CA",
+      "County": "Santa Clara County",
+      "center": { "lat": 37.3541, "lng": -121.9552 }
+    },
+    {
+      "Confirmed": 27,
+      "Deaths": 1,
+      "Recovered": 0,
+      "State": "WA",
+      "County": "Snohomish County",
+      "center": { "lat": 48.033, "lng": -121.8339 }
+    },
+    {
+      "Confirmed": 21,
       "Deaths": 0,
       "Recovered": 0,
+      "State": "Unknwon",
+      "County": "Unknwon",
+      "center": { "lat": 37.6489, "lng": -122.6655 }
+    },
+    {
+      "Confirmed": 14,
+      "Deaths": 0,
+      "Recovered": 0,
+      "State": "CA",
+      "County": "Los Angeles",
       "center": { "lat": 34.0522, "lng": -118.2437 }
     },
     {
-      "Province/State": "Cook County, IL",
-      "Confirmed": 5,
-      "Deaths": 0,
-      "Recovered": 2,
-      "center": { "lat": 41.7377, "lng": -87.6976 }
-    },
-    {
-      "Province/State": "Placer County, CA",
-      "Confirmed": 5,
-      "Deaths": 1,
-      "Recovered": 0,
-      "center": { "lat": 39.0916, "lng": -120.8039 }
-    },
-    {
-      "Province/State": "Unassigned Location, WA",
-      "Confirmed": 5,
+      "Confirmed": 11,
       "Deaths": 0,
       "Recovered": 0,
-      "center": { "lat": 47.7511, "lng": -120.7401 }
+      "State": "NY",
+      "County": "New York County",
+      "center": { "lat": 40.7128, "lng": -74.006 }
     },
     {
-      "Province/State": "Contra Costa County, CA",
-      "Confirmed": 3,
+      "Confirmed": 9,
       "Deaths": 0,
       "Recovered": 0,
-      "center": { "lat": 37.8534, "lng": -121.9018 }
-    },
-    {
-      "Province/State": "Harris County, TX",
-      "Confirmed": 3,
-      "Deaths": 0,
-      "Recovered": 0,
-      "center": { "lat": 29.7752, "lng": -95.3103 }
-    },
-    {
-      "Province/State": "Montgomery County, MD",
-      "Confirmed": 3,
-      "Deaths": 0,
-      "Recovered": 0,
-      "center": { "lat": 39.1547, "lng": -77.2405 }
-    },
-    {
-      "Province/State": "Orange County, CA",
-      "Confirmed": 3,
-      "Deaths": 0,
-      "Recovered": 0,
-      "center": { "lat": 33.7879, "lng": -117.8531 }
-    },
-    {
-      "Province/State": "San Diego County, CA",
-      "Confirmed": 3,
-      "Deaths": 0,
-      "Recovered": 1,
-      "center": { "lat": 32.7157, "lng": -117.1611 }
-    },
-    {
-      "Province/State": "Suffolk County, MA",
-      "Confirmed": 3,
-      "Deaths": 0,
-      "Recovered": 1,
-      "center": { "lat": 42.3601, "lng": -71.0589 }
-    },
-    {
-      "Province/State": " Norfolk County, MA",
-      "Confirmed": 2,
-      "Deaths": 0,
-      "Recovered": 0,
-      "center": { "lat": 42.1767, "lng": -71.1449 }
-    },
-    {
-      "Province/State": "Bergen County, NJ",
-      "Confirmed": 2,
-      "Deaths": 0,
-      "Recovered": 0,
-      "center": { "lat": 40.9263, "lng": -74.077 }
-    },
-    {
-      "Province/State": "Denver County, CO",
-      "Confirmed": 2,
-      "Deaths": 0,
-      "Recovered": 0,
-      "center": { "lat": 39.7392, "lng": -104.9903 }
-    },
-    {
-      "Province/State": "Fulton County, GA",
-      "Confirmed": 2,
-      "Deaths": 0,
-      "Recovered": 0,
-      "center": { "lat": 33.8034, "lng": -84.3963 }
-    },
-    {
-      "Province/State": "Grafton County, NH",
-      "Confirmed": 2,
-      "Deaths": 0,
-      "Recovered": 0,
-      "center": { "lat": 43.9088, "lng": -71.826 }
-    },
-    {
-      "Province/State": "Hillsborough, FL",
-      "Confirmed": 2,
-      "Deaths": 0,
-      "Recovered": 0,
-      "center": { "lat": 27.9904, "lng": -82.3018 }
-    },
-    {
-      "Province/State": "Maricopa County, AZ",
-      "Confirmed": 2,
-      "Deaths": 0,
-      "Recovered": 0,
-      "center": { "lat": 33.2918, "lng": -112.4291 }
-    },
-    {
-      "Province/State": "Providence, RI",
-      "Confirmed": 2,
-      "Deaths": 0,
-      "Recovered": 0,
-      "center": { "lat": 41.824, "lng": -71.4128 }
-    },
-    {
-      "Province/State": "Sacramento County, CA",
-      "Confirmed": 2,
-      "Deaths": 0,
-      "Recovered": 0,
-      "center": { "lat": 38.4747, "lng": -121.3542 }
-    },
-    {
-      "Province/State": "San Benito, CA",
-      "Confirmed": 2,
-      "Deaths": 0,
-      "Recovered": 0,
-      "center": { "lat": 36.5761, "lng": -120.9876 }
-    },
-    {
-      "Province/State": "San Francisco County, CA",
-      "Confirmed": 2,
-      "Deaths": 0,
-      "Recovered": 0,
+      "State": "CA",
+      "County": "San Francisco County",
       "center": { "lat": 37.7749, "lng": -122.4194 }
     },
     {
-      "Province/State": "San Mateo, CA",
-      "Confirmed": 2,
+      "Confirmed": 6,
       "Deaths": 0,
-      "Recovered": 0,
-      "center": { "lat": 37.563, "lng": -122.3255 }
+      "Recovered": 2,
+      "State": "IL",
+      "County": "Cook County",
+      "center": { "lat": 41.7377, "lng": -87.6976 }
     },
     {
-      "Province/State": "Summit County, CO",
-      "Confirmed": 2,
+      "Confirmed": 5,
       "Deaths": 0,
       "Recovered": 0,
-      "center": { "lat": 39.5912, "lng": -106.064 }
+      "State": "TX",
+      "County": "Harris County",
+      "center": { "lat": 29.7752, "lng": -95.3103 }
     },
     {
-      "Province/State": "Washington County, OR",
-      "Confirmed": 2,
+      "Confirmed": 5,
+      "Deaths": 1,
+      "Recovered": 0,
+      "State": "CA",
+      "County": "Placer County",
+      "center": { "lat": 39.0916, "lng": -120.8039 }
+    },
+    {
+      "Confirmed": 5,
       "Deaths": 0,
       "Recovered": 0,
-      "center": { "lat": 45.547, "lng": -123.1386 }
+      "State": "WA",
+      "County": "Unassigned Location",
+      "center": { "lat": 47.7511, "lng": -120.7401 }
     },
     {
-      "Province/State": "Berkeley, CA",
-      "Confirmed": 1,
+      "Confirmed": 4,
       "Deaths": 0,
       "Recovered": 0,
-      "center": { "lat": 37.8715, "lng": -122.273 }
+      "State": "NJ",
+      "County": "Bergen County",
+      "center": { "lat": 40.9263, "lng": -74.077 }
     },
     {
-      "Province/State": "Chatham County, NC",
-      "Confirmed": 1,
+      "Confirmed": 4,
       "Deaths": 0,
       "Recovered": 0,
-      "center": { "lat": 35.7211, "lng": -79.1781 }
-    },
-    {
-      "Province/State": "Clark County, NV",
-      "Confirmed": 1,
-      "Deaths": 0,
-      "Recovered": 0,
-      "center": { "lat": 36.0796, "lng": -115.094 }
-    },
-    {
-      "Province/State": "Delaware County, PA",
-      "Confirmed": 1,
-      "Deaths": 0,
-      "Recovered": 0,
-      "center": { "lat": 39.9078, "lng": -75.3879 }
-    },
-    {
-      "Province/State": "Douglas County, NE",
-      "Confirmed": 1,
-      "Deaths": 0,
-      "Recovered": 0,
-      "center": { "lat": 41.3148, "lng": -96.1951 }
-    },
-    {
-      "Province/State": "Fayette County, KY",
-      "Confirmed": 1,
-      "Deaths": 0,
-      "Recovered": 0,
-      "center": { "lat": 38.0606, "lng": -84.4803 }
-    },
-    {
-      "Province/State": "Floyd County, GA",
-      "Confirmed": 1,
-      "Deaths": 0,
-      "Recovered": 0,
-      "center": { "lat": 34.2829, "lng": -85.2308 }
-    },
-    {
-      "Province/State": "Fort Bend County, TX",
-      "Confirmed": 1,
-      "Deaths": 0,
-      "Recovered": 0,
-      "center": { "lat": 29.5693, "lng": -95.8143 }
-    },
-    {
-      "Province/State": "Grant County, WA",
-      "Confirmed": 1,
-      "Deaths": 0,
-      "Recovered": 0,
-      "center": { "lat": 47.1981, "lng": -119.3732 }
-    },
-    {
-      "Province/State": "Humboldt County, CA",
-      "Confirmed": 1,
-      "Deaths": 0,
-      "Recovered": 0,
-      "center": { "lat": 40.745, "lng": -123.8695 }
-    },
-    {
-      "Province/State": "Madison, WI",
-      "Confirmed": 1,
-      "Deaths": 0,
-      "Recovered": 1,
-      "center": { "lat": 43.0731, "lng": -89.4012 }
-    },
-    {
-      "Province/State": "Marion County, IN",
-      "Confirmed": 1,
-      "Deaths": 0,
-      "Recovered": 0,
-      "center": { "lat": 39.8362, "lng": -86.1752 }
-    },
-    {
-      "Province/State": "Middlesex County, MA",
-      "Confirmed": 1,
-      "Deaths": 0,
-      "Recovered": 0,
-      "center": { "lat": 42.4672, "lng": -71.2874 }
-    },
-    {
-      "Province/State": "Nassau County, NY",
-      "Confirmed": 1,
-      "Deaths": 0,
-      "Recovered": 0,
+      "State": "NY",
+      "County": "Nassau County",
       "center": { "lat": 40.6546, "lng": -73.5594 }
     },
     {
-      "Province/State": "Norwell County, MA",
+      "Confirmed": 3,
+      "Deaths": 0,
+      "Recovered": 0,
+      "State": "CA",
+      "County": "Contra Costa County",
+      "center": { "lat": 37.8534, "lng": -121.9018 }
+    },
+    {
+      "Confirmed": 3,
+      "Deaths": 0,
+      "Recovered": 0,
+      "State": "CO",
+      "County": "Douglas County",
+      "center": { "lat": 39.2587, "lng": -104.9389 }
+    },
+    {
+      "Confirmed": 3,
+      "Deaths": 0,
+      "Recovered": 0,
+      "State": "TX",
+      "County": "Fort Bend County",
+      "center": { "lat": 29.5693, "lng": -95.8143 }
+    },
+    {
+      "Confirmed": 3,
+      "Deaths": 0,
+      "Recovered": 0,
+      "State": "GA",
+      "County": "Fulton County",
+      "center": { "lat": 33.8034, "lng": -84.3963 }
+    },
+    {
+      "Confirmed": 3,
+      "Deaths": 0,
+      "Recovered": 1,
+      "State": "AZ",
+      "County": "Maricopa County",
+      "center": { "lat": 33.2918, "lng": -112.4291 }
+    },
+    {
+      "Confirmed": 3,
+      "Deaths": 0,
+      "Recovered": 0,
+      "State": "MD",
+      "County": "Montgomery County",
+      "center": { "lat": 39.1547, "lng": -77.2405 }
+    },
+    {
+      "Confirmed": 3,
+      "Deaths": 0,
+      "Recovered": 0,
+      "State": "CA",
+      "County": "Orange County",
+      "center": { "lat": 33.7879, "lng": -117.8531 }
+    },
+    {
+      "Confirmed": 3,
+      "Deaths": 0,
+      "Recovered": 0,
+      "State": "RI",
+      "County": "Providence County",
+      "center": { "lat": 41.8882, "lng": -71.4774 }
+    },
+    {
+      "Confirmed": 3,
+      "Deaths": 0,
+      "Recovered": 1,
+      "State": "CA",
+      "County": "San Diego County",
+      "center": { "lat": 32.7157, "lng": -117.1611 }
+    },
+    {
+      "Confirmed": 3,
+      "Deaths": 0,
+      "Recovered": 1,
+      "State": "MA",
+      "County": "Suffolk County",
+      "center": { "lat": 42.3601, "lng": -71.0589 }
+    },
+    {
+      "Confirmed": 3,
+      "Deaths": 0,
+      "Recovered": 0,
+      "State": "OR",
+      "County": "Washington County",
+      "center": { "lat": 45.547, "lng": -123.1386 }
+    },
+    {
+      "Confirmed": 2,
+      "Deaths": 0,
+      "Recovered": 0,
+      "State": "MA",
+      "County": " Norfolk County",
+      "center": { "lat": 42.1767, "lng": -71.1449 }
+    },
+    {
+      "Confirmed": 2,
+      "Deaths": 0,
+      "Recovered": 0,
+      "State": "CA",
+      "County": "Alameda County",
+      "center": { "lat": 37.6017, "lng": -121.7195 }
+    },
+    {
+      "Confirmed": 2,
+      "Deaths": 0,
+      "Recovered": 0,
+      "State": "FL",
+      "County": "Broward County",
+      "center": { "lat": 26.1901, "lng": -80.3659 }
+    },
+    {
+      "Confirmed": 2,
+      "Deaths": 0,
+      "Recovered": 0,
+      "State": "CO",
+      "County": "Denver County",
+      "center": { "lat": 39.7392, "lng": -104.9903 }
+    },
+    {
+      "Confirmed": 2,
+      "Deaths": 0,
+      "Recovered": 0,
+      "State": "CT",
+      "County": "Fairfield County",
+      "center": { "lat": 41.256, "lng": -73.3709 }
+    },
+    {
+      "Confirmed": 2,
+      "Deaths": 0,
+      "Recovered": 0,
+      "State": "GA",
+      "County": "Floyd County",
+      "center": { "lat": 34.2829, "lng": -85.2308 }
+    },
+    {
+      "Confirmed": 2,
+      "Deaths": 0,
+      "Recovered": 0,
+      "State": "NH",
+      "County": "Grafton County",
+      "center": { "lat": 43.9088, "lng": -71.826 }
+    },
+    {
+      "Confirmed": 2,
+      "Deaths": 0,
+      "Recovered": 0,
+      "State": "FL",
+      "County": "Hillsborough",
+      "center": { "lat": 27.9904, "lng": -82.3018 }
+    },
+    {
+      "Confirmed": 2,
+      "Deaths": 0,
+      "Recovered": 0,
+      "State": "FL",
+      "County": "Lee County",
+      "center": { "lat": 26.663, "lng": -81.9535 }
+    },
+    {
+      "Confirmed": 2,
+      "Deaths": 0,
+      "Recovered": 0,
+      "State": "AZ",
+      "County": "Pinal County",
+      "center": { "lat": 32.8162, "lng": -111.2845 }
+    },
+    {
+      "Confirmed": 2,
+      "Deaths": 0,
+      "Recovered": 0,
+      "State": "NY",
+      "County": "Rockland County",
+      "center": { "lat": 41.1489, "lng": -73.983 }
+    },
+    {
+      "Confirmed": 2,
+      "Deaths": 0,
+      "Recovered": 0,
+      "State": "CA",
+      "County": "Sacramento County",
+      "center": { "lat": 38.4747, "lng": -121.3542 }
+    },
+    {
+      "Confirmed": 2,
+      "Deaths": 0,
+      "Recovered": 0,
+      "State": "CA",
+      "County": "San Benito",
+      "center": { "lat": 36.5761, "lng": -120.9876 }
+    },
+    {
+      "Confirmed": 2,
+      "Deaths": 0,
+      "Recovered": 0,
+      "State": "CA",
+      "County": "San Mateo",
+      "center": { "lat": 37.563, "lng": -122.3255 }
+    },
+    {
+      "Confirmed": 2,
+      "Deaths": 0,
+      "Recovered": 0,
+      "State": "NY",
+      "County": "Saratoga County",
+      "center": { "lat": 43.0324, "lng": -73.936 }
+    },
+    {
+      "Confirmed": 2,
+      "Deaths": 0,
+      "Recovered": 0,
+      "State": "CO",
+      "County": "Summit County",
+      "center": { "lat": 39.5912, "lng": -106.064 }
+    },
+    {
       "Confirmed": 1,
       "Deaths": 0,
       "Recovered": 0,
-      "center": { "lat": 42.1615, "lng": -70.7928 }
+      "State": "SC",
+      "County": "Charleston County",
+      "center": { "lat": 32.7957, "lng": -79.7848 }
     },
     {
-      "Province/State": "Ramsey County, MN",
       "Confirmed": 1,
       "Deaths": 0,
       "Recovered": 0,
-      "center": { "lat": 44.9964, "lng": -93.0616 }
+      "State": "NC",
+      "County": "Chatham County",
+      "center": { "lat": 35.7211, "lng": -79.1781 }
     },
     {
-      "Province/State": "San Antonio, TX",
       "Confirmed": 1,
       "Deaths": 0,
       "Recovered": 0,
-      "center": { "lat": 29.4241, "lng": -98.4936 }
+      "State": "NV",
+      "County": "Clark County",
+      "center": { "lat": 36.0796, "lng": -115.094 }
     },
     {
-      "Province/State": "Santa Rosa County, FL",
       "Confirmed": 1,
       "Deaths": 0,
       "Recovered": 0,
-      "center": { "lat": 30.769, "lng": -86.9824 }
+      "State": "WA",
+      "County": "Clark County",
+      "center": { "lat": 45.7466, "lng": -122.5194 }
     },
     {
-      "Province/State": "Sarasota, FL",
       "Confirmed": 1,
       "Deaths": 0,
       "Recovered": 0,
-      "center": { "lat": 27.3364, "lng": -82.5307 }
+      "State": "GA",
+      "County": "Cobb County",
+      "center": { "lat": 33.8999, "lng": -84.5641 }
     },
     {
-      "Province/State": "Sonoma County, CA",
       "Confirmed": 1,
       "Deaths": 0,
       "Recovered": 0,
-      "center": { "lat": 38.578, "lng": -122.9888 }
+      "State": "UT",
+      "County": "Davis County",
+      "center": { "lat": 40.9629, "lng": -112.0953 }
     },
     {
-      "Province/State": "Tempe, AZ",
+      "Confirmed": 1,
+      "Deaths": 0,
+      "Recovered": 0,
+      "State": "PA",
+      "County": "Delaware County",
+      "center": { "lat": 39.9078, "lng": -75.3879 }
+    },
+    {
+      "Confirmed": 1,
+      "Deaths": 0,
+      "Recovered": 0,
+      "State": "NE",
+      "County": "Douglas County",
+      "center": { "lat": 41.3148, "lng": -96.1951 }
+    },
+    {
+      "Confirmed": 1,
+      "Deaths": 0,
+      "Recovered": 0,
+      "State": "CO",
+      "County": "El Paso County",
+      "center": { "lat": 38.9108, "lng": -104.4723 }
+    },
+    {
+      "Confirmed": 1,
+      "Deaths": 0,
+      "Recovered": 0,
+      "State": "KY",
+      "County": "Fayette County",
+      "center": { "lat": 38.0606, "lng": -84.4803 }
+    },
+    {
+      "Confirmed": 1,
+      "Deaths": 0,
+      "Recovered": 0,
+      "State": "WA",
+      "County": "Grant County",
+      "center": { "lat": 47.1981, "lng": -119.3732 }
+    },
+    {
+      "Confirmed": 1,
+      "Deaths": 0,
+      "Recovered": 0,
+      "State": "HI",
+      "County": "Honolulu County",
+      "center": { "lat": 21.307, "lng": -157.8584 }
+    },
+    {
+      "Confirmed": 1,
+      "Deaths": 0,
+      "Recovered": 0,
+      "State": "CA",
+      "County": "Humboldt County",
+      "center": { "lat": 40.745, "lng": -123.8695 }
+    },
+    {
+      "Confirmed": 1,
+      "Deaths": 0,
+      "Recovered": 0,
+      "State": "Unknwon",
+      "County": "Unknwon",
+      "center": { "lat": 42.3345, "lng": -122.7647 }
+    },
+    {
+      "Confirmed": 1,
+      "Deaths": 0,
+      "Recovered": 0,
+      "State": "WA",
+      "County": "Jefferson County",
+      "center": { "lat": 47.7425, "lng": -123.304 }
+    },
+    {
+      "Confirmed": 1,
+      "Deaths": 0,
+      "Recovered": 0,
+      "State": "SC",
+      "County": "Kershaw County",
+      "center": { "lat": 34.3672, "lng": -80.5883 }
+    },
+    {
+      "Confirmed": 1,
+      "Deaths": 0,
+      "Recovered": 0,
+      "State": "OR",
+      "County": "Klamath County",
+      "center": { "lat": 42.6953, "lng": -121.6142 }
+    },
+    {
+      "Confirmed": 1,
+      "Deaths": 0,
+      "Recovered": 0,
+      "State": "CA",
+      "County": "Madera County",
+      "center": { "lat": 37.2519, "lng": -119.6963 }
+    },
+    {
       "Confirmed": 1,
       "Deaths": 0,
       "Recovered": 1,
-      "center": { "lat": 33.4255, "lng": -111.94 }
+      "State": "WI",
+      "County": "Madison",
+      "center": { "lat": 43.0731, "lng": -89.4012 }
     },
     {
-      "Province/State": "Umatilla, OR",
       "Confirmed": 1,
       "Deaths": 0,
       "Recovered": 0,
+      "State": "IN",
+      "County": "Marion County",
+      "center": { "lat": 39.8362, "lng": -86.1752 }
+    },
+    {
+      "Confirmed": 1,
+      "Deaths": 0,
+      "Recovered": 0,
+      "State": "MA",
+      "County": "Middlesex County",
+      "center": { "lat": 41.912, "lng": -70.7168 }
+    },
+    {
+      "Confirmed": 1,
+      "Deaths": 0,
+      "Recovered": 0,
+      "State": "WA",
+      "County": "Pierce County",
+      "center": { "lat": 47.0676, "lng": -122.1295 }
+    },
+    {
+      "Confirmed": 1,
+      "Deaths": 0,
+      "Recovered": 0,
+      "State": "MA",
+      "County": "Plymouth County",
+      "center": { "lat": 42.1615, "lng": -70.7928 }
+    },
+    {
+      "Confirmed": 1,
+      "Deaths": 0,
+      "Recovered": 0,
+      "State": "MN",
+      "County": "Ramsey County",
+      "center": { "lat": 44.9964, "lng": -93.0616 }
+    },
+    {
+      "Confirmed": 1,
+      "Deaths": 0,
+      "Recovered": 0,
+      "State": "TX",
+      "County": "San Antonio",
+      "center": { "lat": 29.4241, "lng": -98.4936 }
+    },
+    {
+      "Confirmed": 1,
+      "Deaths": 0,
+      "Recovered": 0,
+      "State": "CA",
+      "County": "Santa Cruz County",
+      "center": { "lat": 36.9741, "lng": -122.0308 }
+    },
+    {
+      "Confirmed": 1,
+      "Deaths": 0,
+      "Recovered": 0,
+      "State": "FL",
+      "County": "Santa Rosa County",
+      "center": { "lat": 30.769, "lng": -86.9824 }
+    },
+    {
+      "Confirmed": 1,
+      "Deaths": 0,
+      "Recovered": 0,
+      "State": "FL",
+      "County": "Sarasota",
+      "center": { "lat": 27.3364, "lng": -82.5307 }
+    },
+    {
+      "Confirmed": 1,
+      "Deaths": 0,
+      "Recovered": 0,
+      "State": "CA",
+      "County": "Sonoma County",
+      "center": { "lat": 38.578, "lng": -122.9888 }
+    },
+    {
+      "Confirmed": 1,
+      "Deaths": 0,
+      "Recovered": 0,
+      "State": "OK",
+      "County": "Tulsa County",
+      "center": { "lat": 36.1593, "lng": -95.941 }
+    },
+    {
+      "Confirmed": 1,
+      "Deaths": 0,
+      "Recovered": 0,
+      "State": "OR",
+      "County": "Umatilla",
       "center": { "lat": 45.775, "lng": -118.7606 }
     },
     {
-      "Province/State": "Wake County, NC",
       "Confirmed": 1,
       "Deaths": 0,
       "Recovered": 0,
+      "State": "NC",
+      "County": "Wake County",
       "center": { "lat": 35.8032, "lng": -78.5661 }
     },
     {
-      "Province/State": "Washoe County, NV",
       "Confirmed": 1,
       "Deaths": 0,
       "Recovered": 0,
+      "State": "NV",
+      "County": "Washoe County",
       "center": { "lat": 40.5608, "lng": -119.6035 }
     },
     {
-      "Province/State": "Wayne County, PA",
       "Confirmed": 1,
       "Deaths": 0,
       "Recovered": 0,
+      "State": "PA",
+      "County": "Wayne County",
       "center": { "lat": 41.6739, "lng": -75.2479 }
     },
     {
-      "Province/State": "Williamson County, TN",
       "Confirmed": 1,
       "Deaths": 0,
       "Recovered": 0,
+      "State": "TN",
+      "County": "Williamson County",
       "center": { "lat": 35.9179, "lng": -86.8622 }
     },
     {
-      "Province/State": "Yolo County, CA",
       "Confirmed": 1,
       "Deaths": 0,
       "Recovered": 0,
+      "State": "CA",
+      "County": "Yolo County",
       "center": { "lat": 38.7646, "lng": -121.9018 }
     },
     {
-      "Province/State": "Lackland, TX (From Diamond Princess)",
       "Confirmed": 0,
       "Deaths": 0,
       "Recovered": 0,
+      "State": "TX",
+      "County": "Lackland",
       "center": { "lat": 29.3829, "lng": -98.6134 }
     },
     {
-      "Province/State": "Omaha, NE (From Diamond Princess)",
       "Confirmed": 0,
       "Deaths": 0,
       "Recovered": 0,
+      "State": "TX",
+      "County": "Montgomery County",
+      "center": { "lat": 30.3213, "lng": -95.4778 }
+    },
+    {
+      "Confirmed": 0,
+      "Deaths": 0,
+      "Recovered": 0,
+      "State": "NE",
+      "County": "Omaha",
       "center": { "lat": 41.2545, "lng": -95.9758 }
     },
     {
-      "Province/State": "Travis, CA (From Diamond Princess)",
       "Confirmed": 0,
       "Deaths": 0,
       "Recovered": 0,
+      "State": "CA",
+      "County": "Travis",
       "center": { "lat": 38.2721, "lng": -121.9399 }
     }
-  ]
+  ],
+  "comfirmed_state_list": [
+    "AZ",
+    "CA",
+    "CO",
+    "CT",
+    "FL",
+    "GA",
+    "HI",
+    "IL",
+    "IN",
+    "KY",
+    "MA",
+    "MD",
+    "MN",
+    "NC",
+    "NE",
+    "NH",
+    "NJ",
+    "NV",
+    "NY",
+    "OK",
+    "OR",
+    "PA",
+    "RI",
+    "SC",
+    "TN",
+    "TX",
+    "UT",
+    "Unknwon",
+    "WA",
+    "WI"
+  ],
+  "comfirmed_state_dic": {
+    "WA": [
+      {
+        "Confirmed": 71,
+        "Deaths": 15,
+        "Recovered": 1,
+        "State": "WA",
+        "County": "King County",
+        "center": { "lat": 47.548, "lng": -121.9836 }
+      },
+      {
+        "Confirmed": 27,
+        "Deaths": 1,
+        "Recovered": 0,
+        "State": "WA",
+        "County": "Snohomish County",
+        "center": { "lat": 48.033, "lng": -121.8339 }
+      },
+      {
+        "Confirmed": 5,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "WA",
+        "County": "Unassigned Location",
+        "center": { "lat": 47.7511, "lng": -120.7401 }
+      },
+      {
+        "Confirmed": 1,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "WA",
+        "County": "Clark County",
+        "center": { "lat": 45.7466, "lng": -122.5194 }
+      },
+      {
+        "Confirmed": 1,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "WA",
+        "County": "Grant County",
+        "center": { "lat": 47.1981, "lng": -119.3732 }
+      },
+      {
+        "Confirmed": 1,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "WA",
+        "County": "Jefferson County",
+        "center": { "lat": 47.7425, "lng": -123.304 }
+      },
+      {
+        "Confirmed": 1,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "WA",
+        "County": "Pierce County",
+        "center": { "lat": 47.0676, "lng": -122.1295 }
+      }
+    ],
+    "NY": [
+      {
+        "Confirmed": 57,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "NY",
+        "County": "Westchester County",
+        "center": { "lat": 41.122, "lng": -73.7949 }
+      },
+      {
+        "Confirmed": 11,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "NY",
+        "County": "New York County",
+        "center": { "lat": 40.7128, "lng": -74.006 }
+      },
+      {
+        "Confirmed": 4,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "NY",
+        "County": "Nassau County",
+        "center": { "lat": 40.6546, "lng": -73.5594 }
+      },
+      {
+        "Confirmed": 2,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "NY",
+        "County": "Rockland County",
+        "center": { "lat": 41.1489, "lng": -73.983 }
+      },
+      {
+        "Confirmed": 2,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "NY",
+        "County": "Saratoga County",
+        "center": { "lat": 43.0324, "lng": -73.936 }
+      }
+    ],
+    "Unknwon": [
+      {
+        "Confirmed": 45,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "Unknwon",
+        "County": "Unknwon",
+        "center": { "lat": 35.4437, "lng": 139.638 }
+      },
+      {
+        "Confirmed": 21,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "Unknwon",
+        "County": "Unknwon",
+        "center": { "lat": 37.6489, "lng": -122.6655 }
+      },
+      {
+        "Confirmed": 1,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "Unknwon",
+        "County": "Unknwon",
+        "center": { "lat": 42.3345, "lng": -122.7647 }
+      }
+    ],
+    "CA": [
+      {
+        "Confirmed": 32,
+        "Deaths": 0,
+        "Recovered": 1,
+        "State": "CA",
+        "County": "Santa Clara County",
+        "center": { "lat": 37.3541, "lng": -121.9552 }
+      },
+      {
+        "Confirmed": 14,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "CA",
+        "County": "Los Angeles",
+        "center": { "lat": 34.0522, "lng": -118.2437 }
+      },
+      {
+        "Confirmed": 9,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "CA",
+        "County": "San Francisco County",
+        "center": { "lat": 37.7749, "lng": -122.4194 }
+      },
+      {
+        "Confirmed": 5,
+        "Deaths": 1,
+        "Recovered": 0,
+        "State": "CA",
+        "County": "Placer County",
+        "center": { "lat": 39.0916, "lng": -120.8039 }
+      },
+      {
+        "Confirmed": 3,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "CA",
+        "County": "Contra Costa County",
+        "center": { "lat": 37.8534, "lng": -121.9018 }
+      },
+      {
+        "Confirmed": 3,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "CA",
+        "County": "Orange County",
+        "center": { "lat": 33.7879, "lng": -117.8531 }
+      },
+      {
+        "Confirmed": 3,
+        "Deaths": 0,
+        "Recovered": 1,
+        "State": "CA",
+        "County": "San Diego County",
+        "center": { "lat": 32.7157, "lng": -117.1611 }
+      },
+      {
+        "Confirmed": 2,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "CA",
+        "County": "Alameda County",
+        "center": { "lat": 37.6017, "lng": -121.7195 }
+      },
+      {
+        "Confirmed": 2,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "CA",
+        "County": "Sacramento County",
+        "center": { "lat": 38.4747, "lng": -121.3542 }
+      },
+      {
+        "Confirmed": 2,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "CA",
+        "County": "San Benito",
+        "center": { "lat": 36.5761, "lng": -120.9876 }
+      },
+      {
+        "Confirmed": 2,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "CA",
+        "County": "San Mateo",
+        "center": { "lat": 37.563, "lng": -122.3255 }
+      },
+      {
+        "Confirmed": 1,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "CA",
+        "County": "Humboldt County",
+        "center": { "lat": 40.745, "lng": -123.8695 }
+      },
+      {
+        "Confirmed": 1,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "CA",
+        "County": "Madera County",
+        "center": { "lat": 37.2519, "lng": -119.6963 }
+      },
+      {
+        "Confirmed": 1,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "CA",
+        "County": "Santa Cruz County",
+        "center": { "lat": 36.9741, "lng": -122.0308 }
+      },
+      {
+        "Confirmed": 1,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "CA",
+        "County": "Sonoma County",
+        "center": { "lat": 38.578, "lng": -122.9888 }
+      },
+      {
+        "Confirmed": 1,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "CA",
+        "County": "Yolo County",
+        "center": { "lat": 38.7646, "lng": -121.9018 }
+      },
+      {
+        "Confirmed": 0,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "CA",
+        "County": "Travis",
+        "center": { "lat": 38.2721, "lng": -121.9399 }
+      }
+    ],
+    "IL": [
+      {
+        "Confirmed": 6,
+        "Deaths": 0,
+        "Recovered": 2,
+        "State": "IL",
+        "County": "Cook County",
+        "center": { "lat": 41.7377, "lng": -87.6976 }
+      }
+    ],
+    "TX": [
+      {
+        "Confirmed": 5,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "TX",
+        "County": "Harris County",
+        "center": { "lat": 29.7752, "lng": -95.3103 }
+      },
+      {
+        "Confirmed": 3,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "TX",
+        "County": "Fort Bend County",
+        "center": { "lat": 29.5693, "lng": -95.8143 }
+      },
+      {
+        "Confirmed": 1,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "TX",
+        "County": "San Antonio",
+        "center": { "lat": 29.4241, "lng": -98.4936 }
+      },
+      {
+        "Confirmed": 0,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "TX",
+        "County": "Lackland",
+        "center": { "lat": 29.3829, "lng": -98.6134 }
+      },
+      {
+        "Confirmed": 0,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "TX",
+        "County": "Montgomery County",
+        "center": { "lat": 30.3213, "lng": -95.4778 }
+      }
+    ],
+    "NJ": [
+      {
+        "Confirmed": 4,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "NJ",
+        "County": "Bergen County",
+        "center": { "lat": 40.9263, "lng": -74.077 }
+      }
+    ],
+    "CO": [
+      {
+        "Confirmed": 3,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "CO",
+        "County": "Douglas County",
+        "center": { "lat": 39.2587, "lng": -104.9389 }
+      },
+      {
+        "Confirmed": 2,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "CO",
+        "County": "Denver County",
+        "center": { "lat": 39.7392, "lng": -104.9903 }
+      },
+      {
+        "Confirmed": 2,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "CO",
+        "County": "Summit County",
+        "center": { "lat": 39.5912, "lng": -106.064 }
+      },
+      {
+        "Confirmed": 1,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "CO",
+        "County": "El Paso County",
+        "center": { "lat": 38.9108, "lng": -104.4723 }
+      }
+    ],
+    "GA": [
+      {
+        "Confirmed": 3,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "GA",
+        "County": "Fulton County",
+        "center": { "lat": 33.8034, "lng": -84.3963 }
+      },
+      {
+        "Confirmed": 2,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "GA",
+        "County": "Floyd County",
+        "center": { "lat": 34.2829, "lng": -85.2308 }
+      },
+      {
+        "Confirmed": 1,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "GA",
+        "County": "Cobb County",
+        "center": { "lat": 33.8999, "lng": -84.5641 }
+      }
+    ],
+    "AZ": [
+      {
+        "Confirmed": 3,
+        "Deaths": 0,
+        "Recovered": 1,
+        "State": "AZ",
+        "County": "Maricopa County",
+        "center": { "lat": 33.2918, "lng": -112.4291 }
+      },
+      {
+        "Confirmed": 2,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "AZ",
+        "County": "Pinal County",
+        "center": { "lat": 32.8162, "lng": -111.2845 }
+      }
+    ],
+    "MD": [
+      {
+        "Confirmed": 3,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "MD",
+        "County": "Montgomery County",
+        "center": { "lat": 39.1547, "lng": -77.2405 }
+      }
+    ],
+    "RI": [
+      {
+        "Confirmed": 3,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "RI",
+        "County": "Providence County",
+        "center": { "lat": 41.8882, "lng": -71.4774 }
+      }
+    ],
+    "MA": [
+      {
+        "Confirmed": 3,
+        "Deaths": 0,
+        "Recovered": 1,
+        "State": "MA",
+        "County": "Suffolk County",
+        "center": { "lat": 42.3601, "lng": -71.0589 }
+      },
+      {
+        "Confirmed": 2,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "MA",
+        "County": " Norfolk County",
+        "center": { "lat": 42.1767, "lng": -71.1449 }
+      },
+      {
+        "Confirmed": 1,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "MA",
+        "County": "Middlesex County",
+        "center": { "lat": 41.912, "lng": -70.7168 }
+      },
+      {
+        "Confirmed": 1,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "MA",
+        "County": "Plymouth County",
+        "center": { "lat": 42.1615, "lng": -70.7928 }
+      }
+    ],
+    "OR": [
+      {
+        "Confirmed": 3,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "OR",
+        "County": "Washington County",
+        "center": { "lat": 45.547, "lng": -123.1386 }
+      },
+      {
+        "Confirmed": 1,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "OR",
+        "County": "Klamath County",
+        "center": { "lat": 42.6953, "lng": -121.6142 }
+      },
+      {
+        "Confirmed": 1,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "OR",
+        "County": "Umatilla",
+        "center": { "lat": 45.775, "lng": -118.7606 }
+      }
+    ],
+    "FL": [
+      {
+        "Confirmed": 2,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "FL",
+        "County": "Broward County",
+        "center": { "lat": 26.1901, "lng": -80.3659 }
+      },
+      {
+        "Confirmed": 2,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "FL",
+        "County": "Hillsborough",
+        "center": { "lat": 27.9904, "lng": -82.3018 }
+      },
+      {
+        "Confirmed": 2,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "FL",
+        "County": "Lee County",
+        "center": { "lat": 26.663, "lng": -81.9535 }
+      },
+      {
+        "Confirmed": 1,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "FL",
+        "County": "Santa Rosa County",
+        "center": { "lat": 30.769, "lng": -86.9824 }
+      },
+      {
+        "Confirmed": 1,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "FL",
+        "County": "Sarasota",
+        "center": { "lat": 27.3364, "lng": -82.5307 }
+      }
+    ],
+    "CT": [
+      {
+        "Confirmed": 2,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "CT",
+        "County": "Fairfield County",
+        "center": { "lat": 41.256, "lng": -73.3709 }
+      }
+    ],
+    "NH": [
+      {
+        "Confirmed": 2,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "NH",
+        "County": "Grafton County",
+        "center": { "lat": 43.9088, "lng": -71.826 }
+      }
+    ],
+    "SC": [
+      {
+        "Confirmed": 1,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "SC",
+        "County": "Charleston County",
+        "center": { "lat": 32.7957, "lng": -79.7848 }
+      },
+      {
+        "Confirmed": 1,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "SC",
+        "County": "Kershaw County",
+        "center": { "lat": 34.3672, "lng": -80.5883 }
+      }
+    ],
+    "NC": [
+      {
+        "Confirmed": 1,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "NC",
+        "County": "Chatham County",
+        "center": { "lat": 35.7211, "lng": -79.1781 }
+      },
+      {
+        "Confirmed": 1,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "NC",
+        "County": "Wake County",
+        "center": { "lat": 35.8032, "lng": -78.5661 }
+      }
+    ],
+    "NV": [
+      {
+        "Confirmed": 1,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "NV",
+        "County": "Clark County",
+        "center": { "lat": 36.0796, "lng": -115.094 }
+      },
+      {
+        "Confirmed": 1,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "NV",
+        "County": "Washoe County",
+        "center": { "lat": 40.5608, "lng": -119.6035 }
+      }
+    ],
+    "UT": [
+      {
+        "Confirmed": 1,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "UT",
+        "County": "Davis County",
+        "center": { "lat": 40.9629, "lng": -112.0953 }
+      }
+    ],
+    "PA": [
+      {
+        "Confirmed": 1,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "PA",
+        "County": "Delaware County",
+        "center": { "lat": 39.9078, "lng": -75.3879 }
+      },
+      {
+        "Confirmed": 1,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "PA",
+        "County": "Wayne County",
+        "center": { "lat": 41.6739, "lng": -75.2479 }
+      }
+    ],
+    "NE": [
+      {
+        "Confirmed": 1,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "NE",
+        "County": "Douglas County",
+        "center": { "lat": 41.3148, "lng": -96.1951 }
+      },
+      {
+        "Confirmed": 0,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "NE",
+        "County": "Omaha",
+        "center": { "lat": 41.2545, "lng": -95.9758 }
+      }
+    ],
+    "KY": [
+      {
+        "Confirmed": 1,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "KY",
+        "County": "Fayette County",
+        "center": { "lat": 38.0606, "lng": -84.4803 }
+      }
+    ],
+    "HI": [
+      {
+        "Confirmed": 1,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "HI",
+        "County": "Honolulu County",
+        "center": { "lat": 21.307, "lng": -157.8584 }
+      }
+    ],
+    "WI": [
+      {
+        "Confirmed": 1,
+        "Deaths": 0,
+        "Recovered": 1,
+        "State": "WI",
+        "County": "Madison",
+        "center": { "lat": 43.0731, "lng": -89.4012 }
+      }
+    ],
+    "IN": [
+      {
+        "Confirmed": 1,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "IN",
+        "County": "Marion County",
+        "center": { "lat": 39.8362, "lng": -86.1752 }
+      }
+    ],
+    "MN": [
+      {
+        "Confirmed": 1,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "MN",
+        "County": "Ramsey County",
+        "center": { "lat": 44.9964, "lng": -93.0616 }
+      }
+    ],
+    "OK": [
+      {
+        "Confirmed": 1,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "OK",
+        "County": "Tulsa County",
+        "center": { "lat": 36.1593, "lng": -95.941 }
+      }
+    ],
+    "TN": [
+      {
+        "Confirmed": 1,
+        "Deaths": 0,
+        "Recovered": 0,
+        "State": "TN",
+        "County": "Williamson County",
+        "center": { "lat": 35.9179, "lng": -86.8622 }
+      }
+    ]
+  }
 }

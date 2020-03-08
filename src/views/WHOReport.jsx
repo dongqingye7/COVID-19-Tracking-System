@@ -9,6 +9,7 @@ import { Card } from "components/Card/Card.jsx";
 import DatePicker from 'react-date-picker';
 import Moment from 'moment';
 import { Document, Page } from 'react-pdf';
+import Iframe from 'react-iframe'
 
 class WHOReport extends Component {
     constructor(props) {
@@ -38,28 +39,30 @@ class WHOReport extends Component {
     const { pageNumber, numPages } = this.state;
     Moment.locale('en');
     var str=Moment(this.state.date).format('YYYYMMDD');
-    var url="https://www.who.int/docs/default-source/coronaviruse/situation-reports/"+str+"-sitrep-47-covid-19.pdf"
+    var d1=this.state.date;
+    var d2=new Date("2020/01/21");
+    var diffTime=Math.abs(d1-d2);
+    var diffDay=Math.ceil(diffTime/(1000*60*60*24))+1;
+    var url="https://www.who.int/docs/default-source/coronaviruse/situation-reports/"+str+"-sitrep-"+diffDay+"-covid-19.pdf";
+    if(diffDay<=23 && diffDay>8){
+      url="https://www.who.int/docs/default-source/coronaviruse/situation-reports/"+str+"-sitrep-"+diffDay+"-ncov.pdf";
+    }else if(diffDay<=8){
+      url="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports";
+    }
     return (
       <div className="content">
-        {console.log(url)}
         <Grid fluid>
           <Row>
-            <Col md={8}>
+            <Col md={9}>
               <Card
                 content={
                   <div>
-                    <Document
-                      file={url}
-                      onLoadSuccess={this.onDocumentLoadSuccess}
-                    >
-                      <Page pageNumber={pageNumber} />
-                    </Document>
-                    <p>Page {pageNumber} of {numPages}</p>
+                    <Iframe url={url} width="100%" height="1000px" position="relative"/>
                   </div>
                 }
               />
             </Col>
-            <Col md={4}>
+            <Col md={3}>
               <label>Please select the date:<br></br>
                 <DatePicker
                   onChange = {this.onChange}
