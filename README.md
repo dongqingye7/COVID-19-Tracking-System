@@ -55,7 +55,7 @@ Write about how the project was completed, including assumptions made, how any d
 
 ### Web Page Structure
 
-![Image Web Page Structure](./images/Web Page Structure.png)
+![Image Web Page Structure](https://github.com/dongqingye7/COVID-19-Tracking-System/edit/master/images/Web Page Structure.png)
 
 
 ## <a name="install"></a>Installing ViruSpy
