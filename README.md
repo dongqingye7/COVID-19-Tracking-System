@@ -51,11 +51,11 @@ It is important to ensure easy accessibility of such information for both domest
 Write about how the project was completed, including assumptions made, how any data was joined or parsed, and other features explaining functionality, design, and workflow. Include any dependencies. Write in layman's terms.
 
 ### System Design
-![Image of System design](./images/System design.png)
+![Image of System design](./images/System_design.png)
 
 ### Web Page Structure
 
-![Image Web Page Structure](https://github.com/dongqingye7/COVID-19-Tracking-System/edit/master/images/Web Page Structure.png)
+![Image Web Page Structure](https://github.com/dongqingye7/COVID-19-Tracking-System/edit/master/images/Web_Page_Structure.png)
 
 
 ## <a name="install"></a>Installing ViruSpy
