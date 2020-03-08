@@ -26,7 +26,8 @@ class Bar extends Component {
         var types= ["info", "danger", "warning"];
         var legend_name=JSONdata.US_Month_time.series_label;
         var legend={legend_name, types};
-        console.log(legend);
+        var options = {
+        };
         return (
             <Card
             statsIcon="fa fa-history"
@@ -39,7 +40,7 @@ class Bar extends Component {
                 <ChartistGraph
                   data={data}
                   type="Bar"
-                  plugins="tooltip"
+                  options={options}
                 />
               </div>
             }

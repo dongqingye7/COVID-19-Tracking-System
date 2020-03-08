@@ -20,6 +20,7 @@ import WHOReport from "views/WHOReport.jsx";
 import TableList from "views/TableList.jsx";
 import AboutVirus from "views/AboutVirus.jsx";
 import Maps from "views/Maps.jsx";
+import TravelAdvice from 'views/TravelAdvice.jsx';
 
 const dashboardRoutes = [
   {
@@ -34,6 +35,13 @@ const dashboardRoutes = [
     name: "US Map",
     icon: "pe-7s-map-marker",
     component: Maps,
+    layout: "/admin"
+  },
+  {
+    path: "/traveladvice",
+    name: "Travel Advice",
+    icon: "pe-7s-plane",
+    component: TravelAdvice,
     layout: "/admin"
   },
   {
