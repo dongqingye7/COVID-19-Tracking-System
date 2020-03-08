@@ -116,7 +116,7 @@ It shows the following informations:
 + Source and spread of virus.
 
 ## <a name="install"></a>Installing *COVID-19 Tracking System*
-Write the full steps for installation for someone who is not a programmer, including links and steps for additional tools they need to have for your project to work.
+
 
 **Required software:**
 + Node.js  - Download and install Node.js from [Download NodeJS](https://nodejs.org/en/download/)
