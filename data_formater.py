@@ -211,7 +211,7 @@ data['comfirmed_state_list'] = sorted(comfirmed_state_dic.keys())
 data['comfirmed_state_dic'] = comfirmed_state_dic
 
 
-with open('data.json', 'w') as outfile:
+with open('./src/data.json', 'w') as outfile:
     json.dump(data, outfile)
 
 
