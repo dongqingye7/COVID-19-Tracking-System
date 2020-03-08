@@ -14,7 +14,7 @@
 [*COVID-19 Tracking System* Workflow](#workflow)    
 [Quickstart](#quickstart)    
 [Installing *COVID-19 Tracking System*](#install)    
-[Running *COVID-19 Tracking System*](#usage)    
+[Running *COVID-19 Tracking System*](#running)    
 [*Optional* ViruSpy Testing and Validation](#testing_and_validation)    
 [*Optional* Additional Functionality](#additional)    
 
@@ -117,13 +117,24 @@ It shows the following informations:
 + What is a Conronavirus (COVID-19)?
 + Source and spread of virus.
 
-## <a name="install"></a>Installing ViruSpy
+## <a name="install"></a>Installing *COVID-19 Tracking System*
 Write the full steps for installation for someone who is not a programmer, including links and steps for additional tools they need to have for your project to work.
 
 Required software
-+ List here
-+ List here
++ Node.js  - Download and install Node.js from [NodeJS Downloads](https://nodejs.org/en/download/)
 
+
+Install *COVID-19 Tracking System*:
+1. Go to [Github COVID-19-Tracking-System](https://github.com/dongqingye7/COVID-19-Tracking-System) and download the zip file.
+2. Unzip the zipfile
+3. Open a command line terminal, go to this `./COVID-19-Tracking-System` folder 
+4. Type in command line with following code:  `python3 data_formater.py` (this will create a data.json file in the ./scr folder)
+5. Type in command line with following code:  `npm start`
+
+
+
+
+## <a name="running"></a> Running *COVID-19 Tracking System*
 
 ## <a name="testing_and_validation"></a>ViruSpy Testing and Validation
 
