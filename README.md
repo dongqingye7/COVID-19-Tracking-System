@@ -4,9 +4,6 @@
 
 + Dongqing Ye- [LinkedIn](https://www.linkedin.com/in/dongqingye/) - [GitHub](https://github.com/dongqingye7).
 
-
-Team members names and links to profiles (websites, LinkedIn, GitHub, Twitter, etc.)
-
 <img src="./images/Dashboard.png" width="700" >
 
 
@@ -22,8 +19,6 @@ Team members names and links to profiles (websites, LinkedIn, GitHub, Twitter, e
 [*Optional* Additional Functionality](#additional)    
 
 ## <a name="intro"></a>What is *COVID-19 Tracking System*?
-
-Be sure to describe the project, what your open data source is, and how the idea came about. Write in layman's terms, and link to the original data source.
 
 This project is a web application that aims to visualize and track reported cases of coronavirus disease COVID-19 in real time and provides the general public, exspecially for travelers, with disease guidance and important travel advices. 
 
@@ -41,7 +36,6 @@ This projects uses open data source from [Centers for Disease Control and Preven
 
 ## <a name="importance"></a>Why is this important?
 
-Write about the significance of the project and how it relates to the hackathon theme.
 
 In December 2019, an outbreak of respiratory disease caused by a novel (new) coronavirus that was first detected in China and which has now been detected in almost 90 locations internationally, including in the United States. 
 
@@ -51,8 +45,6 @@ It is important to ensure easy accessibility of such information for both domest
 
 ## <a name="workflow"></a>*COVID-19 Tracking System* Workflow
 
----
-
 Write about how the project was completed, including assumptions made, how any data was joined or parsed, and other features explaining functionality, design, and workflow. Include any dependencies. Write in layman's terms.
 
 
@@ -60,7 +52,6 @@ Write about how the project was completed, including assumptions made, how any d
 ### 1. System Design
 ![Image of System design](./images/System_design.png)
 
----
 
 ### 2. Web Page Structure
 
@@ -138,82 +129,3 @@ Required software
 
 ## <a name="additional"></a>Additional Functionality
 
-
-```python
-
-```
-
-
-```python
-
-```
-
-
-```python
-
-```
-
-
-```python
-
-```
-
-
-```python
-
-```
-
-
-```python
-
-```
-
-
-```python
-
-```
-
-
-```python
-
-```
-
-
-```python
-
-```
-
-
-```python
-
-```
-
-
-```python
-
-```
-
-
-```python
-
-```
-
-
-```python
-
-```
-
-
-```python
-
-```
-
-
-```python
-
-```
-
-
-```python
-
-```
