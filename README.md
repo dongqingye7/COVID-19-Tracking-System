@@ -4,7 +4,7 @@
 
 + Dongqing Ye- [LinkedIn](https://www.linkedin.com/in/dongqingye/) - [GitHub](https://github.com/dongqingye7).
 
-<img src="https://github.com/dongqingye7/COVID-19-Tracking-System/tree/master/images/Dashboard.png" width="700" >
+<img src="./images/Dashboard.png" width="700" >
 
 
 ## Table of Contents
@@ -48,12 +48,12 @@ Write about how the project was completed, including assumptions made, how any d
 
 
 ### 1. System Design
-![Image of System design](https://github.com/dongqingye7/COVID-19-Tracking-System/tree/master/images/System_design.png)
+![Image of System design](./images/System_design.png)
 
 
 ### 2. Web Page Structure
 
-<img src="https://github.com/dongqingye7/COVID-19-Tracking-System/tree/master/images/Web_Page_Structure.png" width="700" >
+<img src="./images/Web_Page_Structure.png" width="700" >
 
 #### Dashboard
 This "Dashboard" page aims to provide an overview of COVID-19 outbreak in US. The data is updated daily.
