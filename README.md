@@ -43,17 +43,19 @@ Write about the significance of the project and how it relates to the hackathon 
 In December 2019, an outbreak of respiratory disease caused by a novel (new) coronavirus that was first detected in China and which has now been detected in almost 90 locations internationally, including in the United States. 
 
 In response to this ongoing public health emergency, we developed this project to provide a user-friendly tool to track the outbreak as it unfolds. The real-time information analysis reveals the rapid spreading of the disease which will certainly have a great impact on the public’s “movement“. 
+
 It is important to ensure easy accessibility of such information for both domestic and international travelers for decision making. We believe our effort in building the COVID-19 Tracking System makes this information accessible and crucial to help people stay aware and prevent, well in advance, from suffering health problems during the earliest stages of the outbreak.
 
 ## <a name="workflow"></a>*COVID-19 Tracking System* Workflow
 
 Write about how the project was completed, including assumptions made, how any data was joined or parsed, and other features explaining functionality, design, and workflow. Include any dependencies. Write in layman's terms.
 
-![Image of System design](/images/System design.png)
+### System Design
+![Image of System design](images/System design.png)
 
 ### Web Page Structure
 
-![Image Web Page Structure](/images/Web Page Structure.png)
+![Image Web Page Structure](images/Web Page Structure.png)
 
 
 ## <a name="install"></a>Installing ViruSpy
