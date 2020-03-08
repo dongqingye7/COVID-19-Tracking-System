@@ -118,7 +118,7 @@ It shows the following informations:
 ## <a name="install"></a>Installing *COVID-19 Tracking System*
 Write the full steps for installation for someone who is not a programmer, including links and steps for additional tools they need to have for your project to work.
 
-**Required software*:**
+**Required software:**
 + Node.js  - Download and install Node.js from [Download NodeJS](https://nodejs.org/en/download/)
 + python3  - Download and install python3 from [Download Python](https://www.python.org/downloads/)
 
@@ -131,8 +131,12 @@ Write the full steps for installation for someone who is not a programmer, inclu
 
 ## <a name="running"></a> Running *COVID-19 Tracking System*
 1. Open a command line terminal, go to this `./COVID-19-Tracking-System` folder 
-2. Type in command line with following code:  `python3 data_formater.py` (this will fetch the real-time data and create a data.json file in the ./scr folder)
-3. Type in command line with following code:  `
+2. Type in command line with following code:  
+```
+python3 data_formater.py
+``` 
+(this will fetch the real-time data and create a `data.json` file in the `./scr` folder)
+3. Type in command line with following code:  
 ```
 npm install
 npm install @material-ui/core @material-ui/icons
