@@ -14,9 +14,7 @@
 [*COVID-19 Tracking System* Workflow](#workflow)    
 [Quickstart](#quickstart)    
 [Installing *COVID-19 Tracking System*](#install)    
-[Running *COVID-19 Tracking System*](#running)    
-[*Optional* ViruSpy Testing and Validation](#testing_and_validation)    
-[*Optional* Additional Functionality](#additional)    
+[Running *COVID-19 Tracking System*](#running)     
 
 ## <a name="intro"></a>What is *COVID-19 Tracking System*?
 
@@ -120,25 +118,25 @@ It shows the following informations:
 ## <a name="install"></a>Installing *COVID-19 Tracking System*
 Write the full steps for installation for someone who is not a programmer, including links and steps for additional tools they need to have for your project to work.
 
-Required software
-+ Node.js  - Download and install Node.js from [NodeJS Downloads](https://nodejs.org/en/download/)
-+ 
+**Required software*:**
++ Node.js  - Download and install Node.js from [Download NodeJS](https://nodejs.org/en/download/)
++ python3  - Download and install python3 from [Download Python](https://www.python.org/downloads/)
 
-Install *COVID-19 Tracking System*:
+**Install *COVID-19 Tracking System***:
 1. Go to [Github COVID-19-Tracking-System](https://github.com/dongqingye7/COVID-19-Tracking-System) and download the zip file.
 2. Unzip the zipfile
-3. Open a command line terminal, go to this `./COVID-19-Tracking-System` folder 
-4. Type in command line with following code:  `python3 data_formater.py` (this will create a data.json file in the ./scr folder)
-5. Type in command line with following code:  `npm install`
-6. Type in command line with following code:  `npm install @material-ui/core @material-ui/icons`
-7. Type in command line with following code:  `npm start`
  
 
 
 
 ## <a name="running"></a> Running *COVID-19 Tracking System*
-
-## <a name="testing_and_validation"></a>ViruSpy Testing and Validation
-
-## <a name="additional"></a>Additional Functionality
+1. Open a command line terminal, go to this `./COVID-19-Tracking-System` folder 
+2. Type in command line with following code:  `python3 data_formater.py` (this will fetch the real-time data and create a data.json file in the ./scr folder)
+3. Type in command line with following code:  `
+```
+npm install
+npm install @material-ui/core @material-ui/icons
+npm start
+```
+The *COVID-19 Tracking System* will be open in a browser.
 
