@@ -122,15 +122,17 @@ Write the full steps for installation for someone who is not a programmer, inclu
 
 Required software
 + Node.js  - Download and install Node.js from [NodeJS Downloads](https://nodejs.org/en/download/)
-
++ 
 
 Install *COVID-19 Tracking System*:
 1. Go to [Github COVID-19-Tracking-System](https://github.com/dongqingye7/COVID-19-Tracking-System) and download the zip file.
 2. Unzip the zipfile
 3. Open a command line terminal, go to this `./COVID-19-Tracking-System` folder 
 4. Type in command line with following code:  `python3 data_formater.py` (this will create a data.json file in the ./scr folder)
-5. Type in command line with following code:  `npm start`
-
+5. Type in command line with following code:  `npm install`
+6. Type in command line with following code:  `npm install @material-ui/core @material-ui/icons`
+7. Type in command line with following code:  `npm start`
+ 
 
 
 
