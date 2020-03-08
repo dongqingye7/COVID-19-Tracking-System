@@ -136,6 +136,8 @@ Write the full steps for installation for someone who is not a programmer, inclu
 python3 data_formater.py
 ``` 
 (this will fetch the real-time data and create a `data.json` file in the `./scr` folder)
+
+
 3. Type in command line with following code:  
 ```
 npm install
