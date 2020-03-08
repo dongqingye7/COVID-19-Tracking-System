@@ -1,19 +1,9 @@
 import React, {Component } from 'react';
 import JSONdata from "../data.json";
-import ChartistGraph from "react-chartist";
 import { Card } from "components/Card/Card.jsx";
+import { ColumnChart } from 'react-chartkick'
 
 class Bar extends Component {
-    createLegend(json) {
-      var legend = [];
-      for (var i = 0; i < json["legend_name"].length; i++) {
-        var type = "fa fa-circle text-" + json["types"][i];
-        legend.push(<i className={type} key={i} />);
-        legend.push(" ");
-        legend.push(json["legend_name"][i]);
-      }
-      return legend;
-    }
     constructor(props) {
         super(props);
         this.state = {  }
@@ -21,31 +11,26 @@ class Bar extends Component {
     render() { 
         var labels= JSONdata.US_Month_time.xlabel;
         var series= JSONdata.US_Month_time.series;  
-        var data={labels, series};
         var dataCollectTime=JSONdata.Date;
-        var types= ["info", "danger", "warning"];
         var legend_name=JSONdata.US_Month_time.series_label;
-        var legend={legend_name, types};
-        var options = {
-        };
+        var allData = [];
+        legend_name.forEach(function(name, i){
+          var dataset={};
+          dataset["name"]=name;
+          var data={};
+          labels.forEach((label, j) => data[label] = series[i][j]);
+          dataset["data"]=data;
+          allData.push(dataset);
+        });   
         return (
             <Card
             statsIcon="fa fa-history"
-            //id="chartHours"
-            title="Daily Reported Cases in US"
-            category="Daliy updates"
-            stats={"Updated by "+dataCollectTime}
+            title="New Reported Cases in US"
+            category={"Updated by "+dataCollectTime}
             content={
               <div className="ct-chart">
-                <ChartistGraph
-                  data={data}
-                  type="Bar"
-                  options={options}
-                />
+                <ColumnChart data={allData} />
               </div>
-            }
-            legend={
-              <div className="legend">{this.createLegend(legend)}</div>
             }
           />
         );

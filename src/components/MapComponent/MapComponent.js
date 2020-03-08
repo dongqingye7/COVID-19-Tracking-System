@@ -24,7 +24,7 @@ export class MapComponent extends Component {
       <Card
       statsIcon="fa fa-history"
       id="chartHours"
-      title="Comfirmed Cases in US"
+      title="Confirmed Cases in US"
       category={"Updated by "+dataCollectTime}
       content={
         <div className="ct-chart">

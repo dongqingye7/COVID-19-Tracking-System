@@ -48,7 +48,7 @@ class Dashboard extends Component {
             <Col lg={4} sm={4}>
               <StatsCard
                 bigIcon={<i className="pe-7s-user text-danger" />}
-                statsText="Comfirmed"
+                statsText="Confirmed"
                 statsValue={Comfirmed}
                 statsIcon={<i className="fa fa-refresh" />}
                 statsIconText={"Updated by "+dataCollectTime}

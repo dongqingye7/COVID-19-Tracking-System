@@ -38,6 +38,13 @@ const dashboardRoutes = [
     layout: "/admin"
   },
   {
+    path: "/table",
+    name: "State Cases",
+    icon: "pe-7s-note2",
+    component: TableList,
+    layout: "/admin"
+  },
+  {
     path: "/traveladvice",
     name: "Travel Advice",
     icon: "pe-7s-plane",
@@ -51,16 +58,10 @@ const dashboardRoutes = [
     component: WHOReport,
     layout: "/admin"
   },
-  {
-    path: "/table",
-    name: "Table List",
-    icon: "pe-7s-note2",
-    component: TableList,
-    layout: "/admin"
-  },
+
   {
     path: "/aboutvirus",
-    name: "About Virus",
+    name: "About COVID-19",
     icon: "pe-7s-news-paper",
     component: AboutVirus,
     layout: "/admin"
