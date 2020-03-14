@@ -33,7 +33,7 @@ ReactDOM.render(
   <BrowserRouter>
     <Switch>
       <Route path="/COVID-19-Tracking-System" render={props => <AdminLayout {...props} />} />
-      <Redirect from="/" to="/COVID-19-Tracking-System/dashboard" />
+      <Redirect from="COVID-19-Tracking-System/" to="/COVID-19-Tracking-System/dashboard" />
     </Switch>
   </BrowserRouter>,
   document.getElementById("root")
