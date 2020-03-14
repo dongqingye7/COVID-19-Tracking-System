@@ -32,8 +32,8 @@ import AdminLayout from "layouts/Admin.jsx";
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
-      <Route path="/COVID-19-Tracking-System" render={props => <AdminLayout {...props} />} />
-      <Redirect from="/" to="/COVID-19-Tracking-System/dashboard" />
+      <Route path="/admin" render={props => <AdminLayout {...props} />} />
+      <Redirect from="/" to="/admin/dashboard" />
     </Switch>
   </BrowserRouter>,
   document.getElementById("root")
