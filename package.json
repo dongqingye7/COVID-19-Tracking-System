@@ -1,7 +1,7 @@
 {
   "name": "covid-19-tracking-system",
   "version": "1.0.0",
-  "homepage" : "http://dongqingye7.github.io/COVID-19-Tracking-System/",
+  "homepage" : "http://dongqingye7.github.io/COVID-19-Tracking-System/dashboard",
   "private": true,
   "dependencies": {
     "@material-ui/icons": "^4.9.1",
