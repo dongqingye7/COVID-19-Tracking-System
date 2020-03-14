@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/COVID-19-Tracking-System/static/css/main.4f2eb4d2.chunk.css",
-    "main.js": "/COVID-19-Tracking-System/static/js/main.af744af5.chunk.js",
-    "main.js.map": "/COVID-19-Tracking-System/static/js/main.af744af5.chunk.js.map",
-    "runtime~main.js": "/COVID-19-Tracking-System/static/js/runtime~main.aaf8b66b.js",
-    "runtime~main.js.map": "/COVID-19-Tracking-System/static/js/runtime~main.aaf8b66b.js.map",
-    "static/css/2.8dc29469.chunk.css": "/COVID-19-Tracking-System/static/css/2.8dc29469.chunk.css",
-    "static/js/2.7c04c3f1.chunk.js": "/COVID-19-Tracking-System/static/js/2.7c04c3f1.chunk.js",
-    "static/js/2.7c04c3f1.chunk.js.map": "/COVID-19-Tracking-System/static/js/2.7c04c3f1.chunk.js.map",
-    "index.html": "/COVID-19-Tracking-System/index.html",
-    "precache-manifest.6fb4d3469775dfd72d070474ce26cddc.js": "/COVID-19-Tracking-System/precache-manifest.6fb4d3469775dfd72d070474ce26cddc.js",
-    "service-worker.js": "/COVID-19-Tracking-System/service-worker.js",
-    "static/css/2.8dc29469.chunk.css.map": "/COVID-19-Tracking-System/static/css/2.8dc29469.chunk.css.map",
-    "static/css/main.4f2eb4d2.chunk.css.map": "/COVID-19-Tracking-System/static/css/main.4f2eb4d2.chunk.css.map",
-    "static/media/pe-icon-7-stroke.css": "/COVID-19-Tracking-System/static/media/Pe-icon-7-stroke.c45f7de0.svg",
-    "static/media/bootstrap.min.css": "/COVID-19-Tracking-System/static/media/glyphicons-halflings-regular.fa277232.woff",
-    "static/media/sidebar-2.jpg": "/COVID-19-Tracking-System/static/media/sidebar-2.7a4ce7cc.jpg"
+    "main.css": "/COVID-19-Tracking-System/master/static/css/main.0a7131b5.chunk.css",
+    "main.js": "/COVID-19-Tracking-System/master/static/js/main.af744af5.chunk.js",
+    "main.js.map": "/COVID-19-Tracking-System/master/static/js/main.af744af5.chunk.js.map",
+    "runtime~main.js": "/COVID-19-Tracking-System/master/static/js/runtime~main.7ad63bb1.js",
+    "runtime~main.js.map": "/COVID-19-Tracking-System/master/static/js/runtime~main.7ad63bb1.js.map",
+    "static/css/2.c85ac9d1.chunk.css": "/COVID-19-Tracking-System/master/static/css/2.c85ac9d1.chunk.css",
+    "static/js/2.7c04c3f1.chunk.js": "/COVID-19-Tracking-System/master/static/js/2.7c04c3f1.chunk.js",
+    "static/js/2.7c04c3f1.chunk.js.map": "/COVID-19-Tracking-System/master/static/js/2.7c04c3f1.chunk.js.map",
+    "index.html": "/COVID-19-Tracking-System/master/index.html",
+    "precache-manifest.39d4e390155eb1ef5014dbe5b1a74067.js": "/COVID-19-Tracking-System/master/precache-manifest.39d4e390155eb1ef5014dbe5b1a74067.js",
+    "service-worker.js": "/COVID-19-Tracking-System/master/service-worker.js",
+    "static/css/2.c85ac9d1.chunk.css.map": "/COVID-19-Tracking-System/master/static/css/2.c85ac9d1.chunk.css.map",
+    "static/css/main.0a7131b5.chunk.css.map": "/COVID-19-Tracking-System/master/static/css/main.0a7131b5.chunk.css.map",
+    "static/media/pe-icon-7-stroke.css": "/COVID-19-Tracking-System/master/static/media/Pe-icon-7-stroke.c45f7de0.svg",
+    "static/media/bootstrap.min.css": "/COVID-19-Tracking-System/master/static/media/glyphicons-halflings-regular.fa277232.woff",
+    "static/media/sidebar-2.jpg": "/COVID-19-Tracking-System/master/static/media/sidebar-2.7a4ce7cc.jpg"
   }
 }
