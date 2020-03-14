@@ -1,6 +1,7 @@
 {
-  "name": "light-bootstrap-dashboard-react",
-  "version": "1.3.0",
+  "name": "covid-19-tracking-system",
+  "version": "1.0.0",
+  "homepage" : "http://dongqingye7.github.io/COVID-19-Tracking-System/",
   "private": true,
   "dependencies": {
     "@material-ui/icons": "^4.9.1",
@@ -46,6 +47,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
+    "predeploy": "python3 data_formater.py && npm run build",
+    "deploy": "gh-pages -d build",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
     "compile-sass": "node-sass src/assets/sass/light-bootstrap-dashboard-react.scss src/assets/css/light-bootstrap-dashboard-react.css",
     "minify-sass": "node-sass src/assets/sass/light-bootstrap-dashboard-react.scss src/assets/css/light-bootstrap-dashboard-react.min.css --output-style compressed",
