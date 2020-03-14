@@ -40,9 +40,13 @@ class Admin extends Component {
   getRoutes = routes => {
     return routes.map((prop, key) => {
       if (prop.layout === "/COVID-19-Tracking-System") {
+        var path=prop.layout + prop.path;
+        if (path==='/COVID-19-Tracking-System/'){
+          path='/COVID-19-Tracking-System/dashboard'
+        }
         return (
           <Route
-            path={prop.layout + prop.path}
+            path={path}
             render={props => (
               <prop.component
                 {...props}
