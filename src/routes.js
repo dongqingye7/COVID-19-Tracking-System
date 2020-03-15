@@ -61,7 +61,7 @@ const dashboardRoutes = [
 
   {
     path: "/aboutvirus",
-    name: "About adminVID-19",
+    name: "About COVID-19",
     icon: "pe-7s-news-paper",
     component: AboutVirus,
     layout: "/admin"
