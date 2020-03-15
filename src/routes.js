@@ -28,35 +28,35 @@ const dashboardRoutes = [
     name: "Dashboard",
     icon: "pe-7s-graph",
     component: Dashboard,
-    layout: "/admin"
+    layout: "/CO"
   },
   {
     path: "/maps",
     name: "US Map",
     icon: "pe-7s-map-marker",
     component: Maps,
-    layout: "/admin"
+    layout: "/CO"
   },
   {
     path: "/table",
     name: "State Cases",
     icon: "pe-7s-note2",
     component: TableList,
-    layout: "/admin"
+    layout: "/CO"
   },
   {
     path: "/traveladvice",
     name: "Travel Advice",
     icon: "pe-7s-plane",
     component: TravelAdvice,
-    layout: "/admin"
+    layout: "/CO"
   },
   {
     path: "/whoreport",
     name: "WHO Daily Report",
     icon: "pe-7s-note",
     component: WHOReport,
-    layout: "/admin"
+    layout: "/CO"
   },
 
   {
