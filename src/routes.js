@@ -28,40 +28,40 @@ const dashboardRoutes = [
     name: "Dashboard",
     icon: "pe-7s-graph",
     component: Dashboard,
-    layout: "/CO"
+    layout: "/admin"
   },
   {
     path: "/maps",
     name: "US Map",
     icon: "pe-7s-map-marker",
     component: Maps,
-    layout: "/CO"
+    layout: "/admin"
   },
   {
     path: "/table",
     name: "State Cases",
     icon: "pe-7s-note2",
     component: TableList,
-    layout: "/CO"
+    layout: "/admin"
   },
   {
     path: "/traveladvice",
     name: "Travel Advice",
     icon: "pe-7s-plane",
     component: TravelAdvice,
-    layout: "/CO"
+    layout: "/admin"
   },
   {
     path: "/whoreport",
     name: "WHO Daily Report",
     icon: "pe-7s-note",
     component: WHOReport,
-    layout: "/CO"
+    layout: "/admin"
   },
 
   {
     path: "/aboutvirus",
-    name: "About COVID-19",
+    name: "About adminVID-19",
     icon: "pe-7s-news-paper",
     component: AboutVirus,
     layout: "/admin"
