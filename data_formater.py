@@ -49,10 +49,11 @@ US_Total_Recovered = int(Total_US_data['Recovered'].sum())
 Today_US_Location = Today_data.loc[ ['US'] , ['Province/State','Confirmed','Deaths', 'Recovered','Latitude','Longitude'] ]
 US_location = Today_US_Location.to_dict('records')
 
+valid_states =  ['Alabama','Alaska','Arizona','Arkansas','California','Colorado','Connecticut','Delaware','Florida','Georgia','Hawaii','Idaho','Illinois','Indiana','Iowa','Kansas','Kentucky','Louisiana','Maine','Maryland','Massachusetts','Michigan','Minnesota','Mississippi','Missouri','Montana','Nebraska','Nevada','New Hampshire','New Jersey','New Mexico','New York','North Carolina','North Dakota','Ohio','Oklahoma','Oregon','Pennsylvania','Rhode Island','South Carolina','South Dakota','Tennessee','Texas','Utah','Vermont','Virginia','Washington','West Virginia','Wisconsin','Wyoming']
 
 
-valid_states = ['AL','AK','AS','AZ','AR','CA','CO','CT','DE','DC','FM','FL','GA','GU','HI','ID','IL','IN','IA','KS','KY','LA','ME','MH','MD','MA','MI','MN','MS','MO','MT','NE','NV','NH','NJ','NM','NY','NC','ND','MP','OH','OK','OR','PW','PA','PR','RI','SC','SD','TN','TX','UT','VT','VI','VA','WA','WV','WI','WY']
 comfirmed_state_dic = {}
+'''
 for index,province in enumerate(US_location):
     name = province['Province/State']
     if '(From Diamond Princess)' in name:
@@ -71,7 +72,16 @@ for index,province in enumerate(US_location):
         US_location[index]['County'] = County
         if State == 'ip':
             print(province['Province/State'])
-       
+'''
+for index,province in enumerate(US_location):
+    name = province['Province/State']
+    
+    State = name
+    US_location[index]['State'] = State
+    County = '-'
+    US_location[index]['County'] = County
+    
+    
     lat = province['Latitude']
     lng = province['Longitude']
     US_location[index]['center'] = {}
