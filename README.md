@@ -1,4 +1,7 @@
 # COVID-19 Tracking System
+### Try it out on AWS
+http://covid-19-tracking-system.s3-website.us-east-2.amazonaws.com
+
 #### Authors
 + Dongchen Ye - [LinkedIn](https://www.linkedin.com/in/dongchenye/) - [GitHub](https://github.com/dongchenye).
 
