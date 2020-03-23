@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import clsx from 'clsx';
 import {lighten, makeStyles } from '@material-ui/core/styles';
 import Table from '@material-ui/core/Table';
 import TableBody from '@material-ui/core/TableBody';
@@ -49,7 +48,6 @@ function stableSort(array, comparator) {
 
 const headCells = [
   { id: 'State', numeric: false, disablePadding: false, label: 'State' },
-  { id: 'County', numeric: false, disablePadding: false, label: 'County' },
   { id: 'Confirmed', numeric: true, disablePadding: false, label: 'Confirmed' },
   { id: 'Deaths', numeric: true, disablePadding: false, label: 'Deaths' },
   { id: 'Recovered', numeric: true, disablePadding: false, label: 'Recovered' },
@@ -92,7 +90,7 @@ function EnhancedTableHead(props) {
 
 EnhancedTableHead.propTypes = {
   classes: PropTypes.object.isRequired,
-  numSelected: PropTypes.number.isRequired,
+  // numSelected: PropTypes.number.isRequired,
   onRequestSort: PropTypes.func.isRequired,
   order: PropTypes.oneOf(['asc', 'desc']).isRequired,
   orderBy: PropTypes.string.isRequired,
@@ -121,14 +119,10 @@ const useToolbarStyles = makeStyles(theme => ({
 
 const EnhancedTableToolbar = props => {
   const classes = useToolbarStyles();
-  const { numSelected } = props;
+  // const { numSelected } = props;
 
   return (
-    <Toolbar
-      className={clsx(classes.root, {
-        [classes.highlight]: numSelected > 0,
-      })}
-    >
+    <Toolbar>
       
     <Typography className={classes.title} variant="h3" id="tableTitle">
         State Reported Cases <span style={{fontSize: '15px'}}>(Updated by {dataCollectTime})</span>
@@ -141,10 +135,6 @@ const EnhancedTableToolbar = props => {
     
     </Toolbar>
   );
-};
-
-EnhancedTableToolbar.propTypes = {
-  numSelected: PropTypes.number.isRequired,
 };
 
 const useStyles = makeStyles(theme => ({
@@ -222,11 +212,11 @@ export default function EnhancedTable() {
                 .slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage)
                 .map((row, index) => {
                   return (
-                    <TableRow style={{fontSize: "15px"}}
+                    <TableRow style={{fontSize: "15px"}} 
                       hover
+                      key={index}
                     >
                       <TableCell >{row.State}</TableCell>
-                      <TableCell >{row.County}</TableCell>
                       <TableCell >{row.Confirmed}</TableCell>
                       <TableCell >{row.Deaths}</TableCell>
                       <TableCell >{row.Recovered}</TableCell>
@@ -234,7 +224,7 @@ export default function EnhancedTable() {
                   );
                 })}
               {emptyRows > 0 && (
-                <TableRow style={{ height: 70 * emptyRows,fontSizeAdjust:"15px" }}>
+                <TableRow style={{ height: 70 * emptyRows,fontSizeAdjust:"20px" }}>
                   <TableCell colSpan={10} />
                 </TableRow>
               )}

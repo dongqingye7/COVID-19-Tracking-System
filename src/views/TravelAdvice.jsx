@@ -16,14 +16,11 @@ class TravelAdvice extends Component {
         <Row>
             <Col md={12} style={{paddingLeft: "2"}}>
             
-                <h4><b>&nbsp;&nbsp;Widespread sustained (ongoing) transmission and restrictions on entry to the United States</b></h4>
                 <Card
-                //title="About Coronavirus Disease 2019 (COVID-19)"
-                //category="Content source: "
                 content={
                   <div>
                     <div className="typo-line">
-                        <div class="card-header h4 bg-danger"><b>Widespread sustained (ongoing) transmission and restrictions on entry to the United States</b></div>
+                        <div className="card-header h4 bg-danger"><b>Widespread sustained (ongoing) transmission and restrictions on entry to the United States</b></div>
                         <p>CDC recommends that travelers avoid all nonessential travel to the following destinations. Entry of foreign nationals from these destinations has been suspended.</p>
                         <ul>
                         <li>China (<a href="https://wwwnc.cdc.gov/travel/notices/watch/novel-coronavirus-china">Level 3 Travel Health Notice</a>)</li>
@@ -32,8 +29,8 @@ class TravelAdvice extends Component {
                     </div>
 
                     <div className="typo-line">
-                        <div class="card-header h4 bg-warning"><b>Widespread sustained (ongoing) transmission</b></div>
-                            <div class="card-body ">
+                        <div className="card-header h4 bg-warning"><b>Widespread sustained (ongoing) transmission</b></div>
+                            <div className="card-body ">
                                 <p>CDC recommends that travelers avoid all nonessential travel to the following destinations:</p>
                             <ul>
                                 <li>South Korea (<a href="https://wwwnc.cdc.gov/travel/notices/alert/coronavirus-south-korea">Level 3 Travel Health Notice</a>)</li>
@@ -42,8 +39,8 @@ class TravelAdvice extends Component {
                         </div>
                     </div>
                     <div className="typo-line">
-                        <div class="card-header h4 bg-info"><b>Sustained (ongoing) community transmission</b></div>
-                            <div class="card-body ">
+                        <div className="card-header h4 bg-info"><b>Sustained (ongoing) community transmission</b></div>
+                            <div className="card-body ">
                                 <p>CDC recommends that older adults or those who have chronic medical conditions consider postponing travel to the following destinations:</p>
                             <ul>
                                <li>Japan (<a href="https://wwwnc.cdc.gov/travel/notices/watch/coronavirus-japan">Level 2 Travel Health Notice</a>)</li>
@@ -51,8 +48,8 @@ class TravelAdvice extends Component {
                         </div>
                     </div>
                     <div className="typo-line">
-                        <div class="card-header h4 bg-dark"><b>Risk of limited community transmission</b></div>
-                            <div class="card-body ">
+                        <div className="card-header h4 bg-success"><b>Risk of limited community transmission</b></div>
+                            <div className="card-body ">
                                 <p>Travelers should practice usual precautions at the following destination:</p>
                             <ul>
                             <li>Hong Kong (<a href="https://wwwnc.cdc.gov/travel/notices/watch/coronavirus-hong-kong">Level 1 Travel Health Notice</a>)</li>                            </ul>
@@ -71,11 +68,11 @@ class TravelAdvice extends Component {
               />
           </Col>
         </Row>
-        <div class="row ">
-          <div class="col-md-12">
-            <div class="row-fluid">
-              <div class="vc_empty_space col-12 pt-3 pb-1">
-                <span class="vc_empty_space_inner"></span>
+        <div className="row ">
+          <div className="col-md-12">
+            <div className="row-fluid">
+              <div className="vc_empty_space col-12 pt-3 pb-1">
+                <span className="vc_empty_space_inner"></span>
               </div>
             </div>
           </div>

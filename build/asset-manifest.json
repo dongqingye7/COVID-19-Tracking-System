@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/COVID-19-Tracking-System/static/css/main.4f2eb4d2.chunk.css",
-    "main.js": "/COVID-19-Tracking-System/static/js/main.370b68c4.chunk.js",
-    "main.js.map": "/COVID-19-Tracking-System/static/js/main.370b68c4.chunk.js.map",
-    "runtime~main.js": "/COVID-19-Tracking-System/static/js/runtime~main.aaf8b66b.js",
-    "runtime~main.js.map": "/COVID-19-Tracking-System/static/js/runtime~main.aaf8b66b.js.map",
-    "static/css/2.8dc29469.chunk.css": "/COVID-19-Tracking-System/static/css/2.8dc29469.chunk.css",
-    "static/js/2.7c04c3f1.chunk.js": "/COVID-19-Tracking-System/static/js/2.7c04c3f1.chunk.js",
-    "static/js/2.7c04c3f1.chunk.js.map": "/COVID-19-Tracking-System/static/js/2.7c04c3f1.chunk.js.map",
-    "index.html": "/COVID-19-Tracking-System/index.html",
-    "precache-manifest.e749099be8c2cb80d3351470aeb4e826.js": "/COVID-19-Tracking-System/precache-manifest.e749099be8c2cb80d3351470aeb4e826.js",
-    "service-worker.js": "/COVID-19-Tracking-System/service-worker.js",
-    "static/css/2.8dc29469.chunk.css.map": "/COVID-19-Tracking-System/static/css/2.8dc29469.chunk.css.map",
-    "static/css/main.4f2eb4d2.chunk.css.map": "/COVID-19-Tracking-System/static/css/main.4f2eb4d2.chunk.css.map",
-    "static/media/pe-icon-7-stroke.css": "/COVID-19-Tracking-System/static/media/Pe-icon-7-stroke.c45f7de0.svg",
-    "static/media/bootstrap.min.css": "/COVID-19-Tracking-System/static/media/glyphicons-halflings-regular.fa277232.woff",
-    "static/media/sidebar-2.jpg": "/COVID-19-Tracking-System/static/media/sidebar-2.7a4ce7cc.jpg"
+    "main.css": "./static/css/main.449131af.chunk.css",
+    "main.js": "./static/js/main.605ab4f5.chunk.js",
+    "main.js.map": "./static/js/main.605ab4f5.chunk.js.map",
+    "runtime~main.js": "./static/js/runtime~main.d653cc00.js",
+    "runtime~main.js.map": "./static/js/runtime~main.d653cc00.js.map",
+    "static/css/2.6d62d0ab.chunk.css": "./static/css/2.6d62d0ab.chunk.css",
+    "static/js/2.9aeb352c.chunk.js": "./static/js/2.9aeb352c.chunk.js",
+    "static/js/2.9aeb352c.chunk.js.map": "./static/js/2.9aeb352c.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.8a7d7c8feb8bfa4e556997be8bab369b.js": "./precache-manifest.8a7d7c8feb8bfa4e556997be8bab369b.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/2.6d62d0ab.chunk.css.map": "./static/css/2.6d62d0ab.chunk.css.map",
+    "static/css/main.449131af.chunk.css.map": "./static/css/main.449131af.chunk.css.map",
+    "static/media/pe-icon-7-stroke.css": "./static/media/Pe-icon-7-stroke.c45f7de0.svg",
+    "static/media/bootstrap.min.css": "./static/media/glyphicons-halflings-regular.fa277232.woff",
+    "static/media/sidebar-2.jpg": "./static/media/sidebar-2.7a4ce7cc.jpg"
   }
 }

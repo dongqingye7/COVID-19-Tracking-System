@@ -1,7 +1,7 @@
 {
   "name": "covid-19-tracking-system",
   "version": "1.0.0",
-  "homepage" : "http://dongqingye7.github.io/COVID-19-Tracking-System/",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "@material-ui/icons": "^4.9.1",
@@ -31,7 +31,7 @@
     "react-pdf": "^4.1.0",
     "react-render-html": "^0.6.0",
     "react-router": "5.0.0",
-    "react-router-dom": "5.0.0",
+    "react-router-dom": "^5.0.0",
     "react-scripts": "3.0.0",
     "react-toggle": "4.0.2",
     "recharts": "^2.0.0-beta.1"

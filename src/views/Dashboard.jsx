@@ -19,10 +19,10 @@ import React, { Component } from "react";
 import { Grid, Row, Col } from "react-bootstrap";
 
 import { StatsCard } from "components/StatsCard/StatsCard.jsx";
-import Chart from '../variables/Chart.js';
+// import Chart from '../variables/Chart.js';
 import Bar from '../variables/Bar.js';
 import JSONdata from "../data.json";
-
+import ApexChart from '../variables/LineChart.js';
 
 class Dashboard extends Component {
   createLegend(json) {
@@ -73,9 +73,14 @@ class Dashboard extends Component {
               />
             </Col>
           </Row>
-          <Row>
+          {/* <Row>
             <Col md={12}>
               <Chart />
+            </Col>
+          </Row> */}
+          <Row>
+            <Col md={12}>
+              <ApexChart />
             </Col>
           </Row>
           <Row>

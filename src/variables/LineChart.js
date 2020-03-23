@@ -1,12 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
 import JSONdata from "../data.json";
 import Chart from "react-apexcharts";
-
+import { Card } from "components/Card/Card.jsx";
 
 var labels= JSONdata.US_Week_time.xlabel;
 var series= JSONdata.US_Week_time.series;
 var legend_name=JSONdata.US_Week_time.series_label;
-
+var dataCollectTime=JSONdata.Date;
 var allData = [];
 legend_name.forEach(function(name, i){
   var dataset={};
@@ -25,8 +25,8 @@ class ApexChart extends React.Component {
         series: allData,
         options: {
           chart: {
-            width: '200%',
-            height: '200%',
+            width: '80%',
+            height: '80%',
             type: 'line',
             dropShadow: {
               enabled: true,
@@ -34,21 +34,25 @@ class ApexChart extends React.Component {
               top: 18,
               left: 7,
               blur: 10,
-              opacity: 0.2
+              opacity: 0.2,
             },
             toolbar: {
-              show: false
+              show: true
             }
           },
-          colors: ['#77B6EA', '#545454'],
+          colors: ['#1E90FF', '#B22222', '#FFA500'],
           dataLabels: {
             enabled: true,
+          },
+          title: {
+            text: '',
+            align: 'left'
           },
           stroke: {
             curve: 'smooth'
           },
           grid: {
-            borderColor: '#e7e7e7',
+            borderColor: '#e7e7e9',
             row: {
               colors: ['#f3f3f3', 'transparent'], // takes an array which will be repeated on columns
               opacity: 0.5
@@ -69,9 +73,8 @@ class ApexChart extends React.Component {
             }
           },
           legend: {
-            position: 'top',
-            horizontalAlign: 'right',
-            floating: true,
+              position: 'right',
+              offsetY: 40
           },
           animations: {
             enabled: true,
@@ -98,12 +101,25 @@ class ApexChart extends React.Component {
         console.log(allData)
       return (
         <div>
-             <Chart
-              options={this.state.options}
-              series={this.state.series}
-              type="line"
-              width="500"
+            <Card
+              statsIcon="fa fa-history"
+              id="chartHours"
+              title="Weekly Cumulative Cases Tracking in US"
+              category={"Updated by "+dataCollectTime}
+              content={
+                <div>
+                  <br></br>
+                  <Chart
+                    options={this.state.options}
+                    series={this.state.series}
+                    type="line"
+                    length="80%"
+                  />
+                  <br></br>
+                </div>
+              }
             />
+
         </div>
       );
     }

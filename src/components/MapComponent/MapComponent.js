@@ -1,49 +1,37 @@
 import JSONdata from "../../data.json";
 import React, { Component } from "react";
-import { Map, GoogleApiWrapper, Marker } from 'google-maps-react';
 import { Card } from "components/Card/Card.jsx";
+import Map from './Map.js';
 
 var US_location = JSONdata.US_location;
 
 export class MapComponent extends Component {
-
-  displayMarkers = () => {
-    return US_location.map((location, index) => {
-      return <Marker key={index} id={index} position={{
-       lat: location.center.lat,
-       lng: location.center.lng
-     }} />
-    })
-  }
-
-
   render() {
     const coords = { lat: 37.09, lng: -95.712 };
-    var dataCollectTime=JSONdata.Date;
+    var dataCollectTime = JSONdata.Date;
     return (
       <Card
-      statsIcon="fa fa-history"
-      id="chartHours"
-      title="Confirmed Cases in US"
-      category={"Updated by "+dataCollectTime}
-      content={
-        <div className="ct-chart">
-          <Map 
-            initialCenter={coords}
-            google={this.props.google} 
-            zoom={4}
-            style={{width: "100%", height: "100%", position: "relative"}}
-          >
-            {this.displayMarkers()}
-          </Map>
-        </div>
-      }
-    />
-
+        statsIcon="fa fa-history"
+        id="chartHours"
+        title="Confirmed Cases in US"
+        category={"Updated by " + dataCollectTime}
+        content={
+          <div className="ct-chart">
+            <Map
+              center={coords}
+              zoom={4}
+              places={US_location}
+              googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyCD66iXvfQg8hp7BPTdsXxIgG1S_6EK998"
+              loadingElement={<div style={{ height: `100%` }} />}
+              containerElement={<div style={{ height: `800px` }} />}
+              mapElement={<div style={{ height: `100%` }} />}
+            >
+            </Map>
+          </div>
+        }
+      />
     );
   }
 }
 
-export default GoogleApiWrapper({
-  apiKey: ("AIzaSyCD66iXvfQg8hp7BPTdsXxIgG1S_6EK998")
-})(MapComponent)
+export default (MapComponent);
