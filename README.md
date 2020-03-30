@@ -34,7 +34,7 @@ This project is a web application that aims to visualize and track reported case
 It includes following features:
 
 + Case in US monthly Analysis 
-+ US Map for confirmed case location
++ Global Map for confirmed case location
 + State cases details (categorizing by State)
 + Travel Advice (categorizing by Country)
 + WHO Daily Reports (categorizing by date)
