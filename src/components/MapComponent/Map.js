@@ -8,32 +8,58 @@ import {
 
 const Map = props => {
     var options1={
-        strokeColor: '#FF0000',
+        strokeColor: 'orange',
         strokeOpacity: 0.8,
-        strokeWeight: 2,
+        strokeWeight: 1,
         fillColor: '#FF0000',
         fillOpacity: 0.35,
     }
     var options2={
-        strokeColor: '#A52A2A',
+        strokeColor: 'red',
         strokeOpacity: 1,
-        strokeWeight: 4,
+        strokeWeight: 1,
         fillColor: '#A52A2A',
         fillOpacity: 0.5,
     }
-
+    var options3={
+      strokeColor: '#B22222',
+      strokeOpacity: 1,
+      strokeWeight: 2,
+      fillColor: '#A52A2A',
+      fillOpacity: 0.5,
+  }
+  var options4={
+    strokeColor: '#800000',
+    strokeOpacity: 1,
+    strokeWeight: 3,
+    fillColor: '#A52A2A',
+    fillOpacity: 0.5,
+}
+    var places=props.places;
+    places = places.filter((place) => place.Confirmed>0);
+    
     return (
       <GoogleMap
         defaultZoom={props.zoom}
         defaultCenter={props.center}
       >
-        {props.places.map((place,index) => {
+        
+        
+        {places.map((place,index) => {
             place.radius=place.Confirmed;
             place.options=options1;
-            if(place.Confirmed>10000){
+            if(place.Confirmed>1000){
+              place.options=options2;
+            }
+
+            if(place.Confirmed>5000){
                 place.radius=place.Confirmed/10;
-                place.options=options2;
-            }  
+                place.options=options3;
+            } 
+            if(place.Confirmed>10000){
+              place.radius=place.Confirmed/100;
+              place.options=options4;
+          }  
           return (
             <Fragment key={index}>
               
@@ -42,7 +68,7 @@ const Map = props => {
                   lat: parseFloat(place.center.lat),
                   lng: parseFloat(place.center.lng)
                 }}
-                radius={place.radius*200}
+                radius={place.radius*125}
                 options={place.options}
               />
             </Fragment>

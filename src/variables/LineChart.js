@@ -1,11 +1,14 @@
 import React from 'react';
 import JSONdata from "../data.json";
 import Chart from "react-apexcharts";
-import { Card } from "components/Card/Card.jsx";
+import Card from "@material-ui/core/Card";
+import Container from '@material-ui/core/Container';
+import CardContent from "@material-ui/core/CardContent";
+import CardHeader from '@material-ui/core/CardHeader';
 
-var labels= JSONdata.US_Week_time.xlabel;
-var series= JSONdata.US_Week_time.series;
-var legend_name=JSONdata.US_Week_time.series_label;
+var labels= JSONdata.US_Month_Cumulative.xlabel;
+var series= JSONdata.US_Month_Cumulative.series;
+var legend_name=JSONdata.US_Month_Cumulative.series_label;
 var dataCollectTime=JSONdata.Date;
 var allData = [];
 legend_name.forEach(function(name, i){
@@ -25,8 +28,8 @@ class ApexChart extends React.Component {
         series: allData,
         options: {
           chart: {
-            width: '80%',
-            height: '80%',
+            width: '100%',
+            height: '100%',
             type: 'line',
             dropShadow: {
               enabled: true,
@@ -42,15 +45,15 @@ class ApexChart extends React.Component {
           },
           colors: ['#1E90FF', '#B22222', '#FFA500'],
           dataLabels: {
-            enabled: true,
+            enabled: false,
           },
           title: {
             text: '',
             align: 'left'
           },
-          stroke: {
-            curve: 'smooth'
-          },
+          // stroke: {
+          //   curve: 'smooth'
+          // },
           grid: {
             borderColor: '#e7e7e9',
             row: {
@@ -100,27 +103,24 @@ class ApexChart extends React.Component {
     render() {
         console.log(allData)
       return (
-        <div>
-            <Card
-              statsIcon="fa fa-history"
-              id="chartHours"
-              title="Weekly Cumulative Cases Tracking in US"
-              category={"Updated by "+dataCollectTime}
-              content={
-                <div>
-                  <br></br>
-                  <Chart
-                    options={this.state.options}
-                    series={this.state.series}
-                    type="line"
-                    length="80%"
-                  />
-                  <br></br>
-                </div>
-              }
+          <Card>
+            <CardHeader style={{fontSize: 14}}
+              title={<h3 style={{ fontWeight: "inherit"}}>Cumulative Cases in US</h3>}
+              subheader={<p className="category">{"Updated by "+dataCollectTime}</p>}
             />
-
-        </div>
+            <CardContent>
+              <Container maxWidth="md">
+                    <br></br>
+                    <Chart
+                      options={this.state.options}
+                      series={this.state.series}
+                      type="line"
+                      width="100%"
+                    />
+                    <br></br>
+              </Container>
+            </CardContent>
+          </Card>
       );
     }
   }

@@ -5,6 +5,7 @@
   "private": true,
   "dependencies": {
     "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.47",
     "apexcharts": "^3.16.1",
     "bootstrap": "3.3.7",
     "chart.js": "^2.9.3",

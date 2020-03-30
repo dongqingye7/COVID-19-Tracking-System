@@ -16,10 +16,15 @@ import IconButton from '@material-ui/core/IconButton';
 import Tooltip from '@material-ui/core/Tooltip';
 import FilterListIcon from '@material-ui/icons/FilterList';
 import JSONdata from "../../data.json";
+// import TextField from '@material-ui/core/TextField';
+// import Autocomplete from '@material-ui/lab/Autocomplete';
 
 var dataCollectTime=JSONdata.Date;
-const rows = JSONdata.US_location;
-
+var rows = JSONdata.US_location;
+rows.forEach(row=>{
+  row.display=true;
+});
+var data=rows;
 function descendingComparator(a, b, orderBy) {
   if (b[orderBy] < a[orderBy]) {
     return -1;
@@ -48,6 +53,7 @@ function stableSort(array, comparator) {
 
 const headCells = [
   { id: 'State', numeric: false, disablePadding: false, label: 'State' },
+  { id: 'County', numeric: false, disablePadding: false, label: 'County' },
   { id: 'Confirmed', numeric: true, disablePadding: false, label: 'Confirmed' },
   { id: 'Deaths', numeric: true, disablePadding: false, label: 'Deaths' },
   { id: 'Recovered', numeric: true, disablePadding: false, label: 'Recovered' },
@@ -167,9 +173,10 @@ const useStyles = makeStyles(theme => ({
 export default function EnhancedTable() {
   const classes = useStyles();
   const [order, setOrder] = React.useState('asc');
-  const [orderBy, setOrderBy] = React.useState('calories');
+  const [orderBy, setOrderBy] = React.useState('Alabama');
   const [page, setPage] = React.useState(0);
   const [rowsPerPage, setRowsPerPage] = React.useState(10);
+  // var [data, setData] = React.useState(rows);
 
   const handleRequestSort = (event, property) => {
     const isAsc = orderBy === property && order === 'asc';
@@ -177,6 +184,19 @@ export default function EnhancedTable() {
     setOrderBy(property);
   };
 
+  // function handleFilter (e){
+  //   var chooseState=e.target.value;
+  //   rows.forEach(row=>{
+  //     if (row.State===chooseState){
+  //       row.display=true;
+  //     }else{
+  //       row.display=false;
+  //     }
+  //   });
+  //   var newdata=rows.filter(row=>row.display===true);
+  //   setData(newdata);
+    
+  // }
 
   const handleChangePage = (event, newPage) => {
     setPage(newPage);
@@ -187,13 +207,23 @@ export default function EnhancedTable() {
     setPage(0);
   };
 
-
-  const emptyRows = rowsPerPage - Math.min(rowsPerPage, rows.length - page * rowsPerPage);
-
+  data=rows.filter(row=>row.display===true);
+  const emptyRows = rowsPerPage - Math.min(rowsPerPage, data.length - page * rowsPerPage);
+  // const states=JSONdata.comfirmed_state_list;
+  
   return (
     <div className={classes.root}>
       <Paper className={classes.paper}>
         <EnhancedTableToolbar />
+          {/* <Autocomplete
+            id="filter"
+            options={states}
+            getOptionLabel={(option) => option}
+            style={{ width: 150, padding: "10px"}}
+            autoHighlight
+            renderInput={(params) => <TextField {...params} label="Choose a state" variant="outlined" onChange={handleFilter}/>}
+          /> */}
+
         <TableContainer>
           <Table
             className={classes.table}
@@ -205,10 +235,10 @@ export default function EnhancedTable() {
               order={order}
               orderBy={orderBy}
               onRequestSort={handleRequestSort}
-              rowCount={rows.length}
+              rowCount={data.length}
             />
             <TableBody>
-              {stableSort(rows, getComparator(order, orderBy))
+              {stableSort(data, getComparator(order, orderBy))
                 .slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage)
                 .map((row, index) => {
                   return (
@@ -217,6 +247,7 @@ export default function EnhancedTable() {
                       key={index}
                     >
                       <TableCell >{row.State}</TableCell>
+                      <TableCell >{row.County}</TableCell>
                       <TableCell >{row.Confirmed}</TableCell>
                       <TableCell >{row.Deaths}</TableCell>
                       <TableCell >{row.Recovered}</TableCell>
@@ -234,7 +265,7 @@ export default function EnhancedTable() {
         <TablePagination
           rowsPerPageOptions={[5, 10, 25]}
           component="div"
-          count={rows.length}
+          count={data.length}
           rowsPerPage={rowsPerPage}
           page={page}
           onChangePage={handleChangePage}

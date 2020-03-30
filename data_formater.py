@@ -49,9 +49,6 @@ for index,value in enumerate(Confirmed_Monthly_Cumulative):
         Confirmed_Month_New_Added[index] = value - Confirmed_Monthly_Cumulative[index-1]
 
 
-# In[2]:
-
-
 ##  Deaths Time Series
 url_Deaths = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv'
 US_Deaths_time = pandas.read_csv(url_Deaths, index_col='Country/Region')
@@ -144,9 +141,12 @@ for index,province in enumerate(US_location):
     State = name
     US_location[index]['State'] = State
     
-    County = province['Admin2']
+    name = province['Admin2']
+    if pandas.isna(name): 
+        County = '-'
+    else:
+        County = name
     US_location[index]['County'] = County
-    
     
     lat = province['Lat']
     lng = province['Long_']
@@ -179,10 +179,17 @@ for index,country in enumerate(Global_location):
     Country = country['Country_Region']
     Global_location[index]['Country'] = Country
     name = country['Province_State']
-    State = name
+    if  pandas.isna(name): 
+        State = '-'
+    else:
+        State = name
     Global_location[index]['State'] = State
     
-    County = country['Admin2']
+    name = country['Admin2']
+    if pandas.isna(name): 
+        County = '-'
+    else:
+        County = name
     Global_location[index]['County'] = County
     
     

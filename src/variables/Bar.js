@@ -1,12 +1,15 @@
 import React, {Component } from 'react';
 import JSONdata from "../data.json";
-import { Card } from "components/Card/Card.jsx";
 import Chart from "react-apexcharts";
+import Card from "@material-ui/core/Card";
+import CardContent from "@material-ui/core/CardContent";
+import CardHeader from '@material-ui/core/CardHeader';
+import Container from '@material-ui/core/Container';
 
-var labels= JSONdata.US_Month_time.xlabel;
-var series= JSONdata.US_Month_time.series;  
+var labels= JSONdata.US_Month_New_add.xlabel;
+var series= JSONdata.US_Month_New_add.series;  
 var dataCollectTime=JSONdata.Date;
-var legend_name=JSONdata.US_Month_time.series_label;
+var legend_name=JSONdata.US_Month_New_add.series_label;
 var allData = [];
 legend_name.forEach(function(name, i){
   var dataset={};
@@ -70,16 +73,19 @@ class Bar extends Component {
     render() { 
 
         return (
-            <Card
-            statsIcon="fa fa-history"
-            title="New Reported Cases in US"
-            category={"Updated by "+dataCollectTime}
-            content={
-              <div id="chart">
-              <Chart options={this.state.options} series={this.state.series} type="bar" height={350} />
-              </div>
-            }
-          />
+          <Card>
+            <CardHeader style={{fontSize: 14}}
+              title={<h3 style={{ fontWeight: "inherit"}}>New Reported Cases in US</h3>}
+              subheader={<p className="category">{"Updated by "+dataCollectTime}</p>}
+            />
+            <CardContent>
+              <Container maxWidth="md">
+                    <br></br>
+                  <Chart options={this.state.options} series={this.state.series} type="bar" width="100%" />
+                    <br></br>
+                </Container>
+              </CardContent>
+            </Card>
         );
     }
 }

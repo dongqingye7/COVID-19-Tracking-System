@@ -32,7 +32,7 @@ const dashboardRoutes = [
   },
   {
     path: "/maps",
-    name: "US Map",
+    name: "Global Map",
     icon: "pe-7s-map-marker",
     component: Maps,
     layout: "/admin"
