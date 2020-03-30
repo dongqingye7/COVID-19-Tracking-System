@@ -11,7 +11,7 @@ https://youtu.be/Su30Dw8q3pM
 
 + Dongqing Ye - [LinkedIn](https://www.linkedin.com/in/dongqingye/) - [GitHub](https://github.com/dongqingye7).
 
-<img src="./images/Dashboard.png" width="700" >
+<img src="https://covid-19-tracking-system.s3.us-east-2.amazonaws.com/images/Dashboard.png" width="700" >
 
 
 ## Table of Contents
@@ -54,18 +54,18 @@ It is important to ensure easy accessibility of such information for both domest
 
 ## <a name="SystemDesign"></a>*COVID-19 Tracking System* System Design
 
-![Image of System design](./images/System_design.png)
+![Image of System design](https://covid-19-tracking-system.s3.us-east-2.amazonaws.com/images/System_design.png)
 
 ## <a name="WebPageStructure"></a>*COVID-19 Tracking System* Web Page Structure
 
-<img src="./images/Web_Page_Structure.png" width="700" >
+<img src="https://covid-19-tracking-system.s3.us-east-2.amazonaws.com/images/Web_Page_Structure.png" width="700" >
 
 ### <a name="Dashboard"></a> Dashboard
 This "Dashboard" page aims to provide an overview of COVID-19 outbreak in US. 
 
 The data is updated daily.
 
-<img src="./images/Dashboard.png" width="700" >
+<img src="https://covid-19-tracking-system.s3.us-east-2.amazonaws.com/images/Dashboard.png" width="700" >
 
 It shows the following informations:
 + Total number of Confirmed Cases(US)
@@ -87,7 +87,7 @@ This "Global Map" page aims to provide a visiualized overview of the locations G
 
 The data is updated daily.
 
-<img src="./images/Global_Map.png" width="700" >
+<img src="https://covid-19-tracking-system.s3.us-east-2.amazonaws.com/images/Global_Map.png" width="700" >
 
 
 ### <a name="State_Cases"></a> State Cases
@@ -97,7 +97,7 @@ User can sort the rows based on the attribute selected.
 
 The data is updated daily.
 
-<img src="./images/State_Cases.png" width="700" >
+<img src="https://covid-19-tracking-system.s3.us-east-2.amazonaws.com/images/State_Cases.png" width="700" >
 
 Each rows includes following information:
 + State
@@ -114,17 +114,17 @@ This includes information of the countries with different risk assessment level 
 
 The data is updated daily.
 
-<img src="./images/Travel_Advice.png" width="700" >
+<img src="https://covid-19-tracking-system.s3.us-east-2.amazonaws.com/images/Travel_Advice.png" width="700" >
 
 ### <a name="WHO_Daily_Report"></a> WHO Daily Report
 This "WHO Daily Report" page aims to provide daily updated Situation reports from Word Health Organization(WHO). User can select date from the calender on the right to view the corresponding WHO report. 
 
-<img src="./images/WHO_Daily_Report.png" width="700" >
+<img src="https://covid-19-tracking-system.s3.us-east-2.amazonaws.com/images/WHO_Daily_Report.png" width="700" >
 
 ### <a name="About_COVID_19"></a> About COVID-19
 This "About COVID-19" page aims to provide the general information about Coronavirus Disease 2019 (COVID-19) according to Centers for Disease Control and Prevention(CDC). 
 
-<img src="./images/About_COVID_19.png" width="700" >
+<img src="https://covid-19-tracking-system.s3.us-east-2.amazonaws.com/images/About_COVID_19.png" width="700" >
 
 It shows the following informations:
 + What is a Conronavirus (COVID-19)?
