@@ -117,7 +117,7 @@ The data is updated daily.
 <img src="https://covid-19-tracking-system.s3.us-east-2.amazonaws.com/images/Travel_Advice.png" width="700" >
 
 ### <a name="WHO_Daily_Report"></a> WHO Daily Report
-This "WHO Daily Report" page aims to provide daily updated Situation reports from Word Health Organization(WHO). User can select date from the calender on the right to view the corresponding WHO report. 
+This "WHO Daily Report" page aims to provide daily updated Situation reports from Word Health Organization(WHO). Users can select the date from the calendar on the right to view the corresponding WHO report. 
 
 <img src="https://covid-19-tracking-system.s3.us-east-2.amazonaws.com/images/WHO_Daily_Report.png" width="700" >
 
