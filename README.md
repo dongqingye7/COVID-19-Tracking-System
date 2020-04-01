@@ -1,27 +1,31 @@
 # COVID-19 Tracking System
 ### Try it out on AWS
 http://covid-19-tracking-system.s3-website.us-east-2.amazonaws.com
-### Presentation Demo
-https://devpost.com/software/covid-19-tracking-system
+### Presentation Video Demo
+https://youtu.be/Su30Dw8q3pM
 
-### Winner of 2020 UTA Open Data Day Hackathon
+#### Winner of 2020 UTA Open Data Day Hackathon
 
 #### Authors
 + Dongchen Ye - [LinkedIn](https://www.linkedin.com/in/dongchenye/) - [GitHub](https://github.com/dongchenye).
 
-+ Dongqing Ye- [LinkedIn](https://www.linkedin.com/in/dongqingye/) - [GitHub](https://github.com/dongqingye7).
++ Dongqing Ye - [LinkedIn](https://www.linkedin.com/in/dongqingye/) - [GitHub](https://github.com/dongqingye7).
 
-<img src="./images/Dashboard.png" width="700" >
+<img src="https://covid-19-tracking-system.s3.us-east-2.amazonaws.com/images/Dashboard.png" width="700" >
 
 
 ## Table of Contents
 
 [What is *COVID-19 Tracking System*?](#intro)    
 [Why is this important?](#importance)    
-[*COVID-19 Tracking System* Workflow](#workflow)    
-[Quickstart](#quickstart)    
-[Installing *COVID-19 Tracking System*](#install)    
-[Running *COVID-19 Tracking System*](#running)     
+[*COVID-19 Tracking System* System Design](#SystemDesign)    
+[*COVID-19 Tracking System* Web Page Structure](#WebPageStructure)    
+[1.   Dashboard](#Dashboard)    
+[2.   Global Map](#Global_Map)    
+[3.   State Cases](#State_Cases)    
+[4.   Travel Advice](#Travel_Advice)    
+[5.   WHO Daily Report](#WHO_Daily_Report)    
+[6.   About COVID 19](#About_COVID_19)    
 
 ## <a name="intro"></a>What is *COVID-19 Tracking System*?
 
@@ -29,8 +33,8 @@ This project is a web application that aims to visualize and track reported case
 
 It includes following features:
 
-+ Case in US weekly/monthly Analysis 
-+ US Map for confirmed case location
++ Case in US monthly Analysis 
++ Global Map for confirmed case location
 + State cases details (categorizing by State)
 + Travel Advice (categorizing by Country)
 + WHO Daily Reports (categorizing by date)
@@ -48,31 +52,27 @@ In response to this ongoing public health emergency, we developed this project t
 
 It is important to ensure easy accessibility of such information for both domestic and international travelers for decision making. We believe our effort in building the COVID-19 Tracking System makes this information accessible and crucial to help people stay aware and prevent, well in advance, from suffering health problems during the earliest stages of the outbreak.
 
-## <a name="workflow"></a>*COVID-19 Tracking System* Workflow
+## <a name="SystemDesign"></a>*COVID-19 Tracking System* System Design
 
-Write about how the project was completed, including assumptions made, how any data was joined or parsed, and other features explaining functionality, design, and workflow. Include any dependencies. Write in layman's terms.
+![Image of System design](https://covid-19-tracking-system.s3.us-east-2.amazonaws.com/images/System_design.png)
 
+## <a name="WebPageStructure"></a>*COVID-19 Tracking System* Web Page Structure
 
+<img src="https://covid-19-tracking-system.s3.us-east-2.amazonaws.com/images/Web_Page_Structure.png" width="700" >
 
-### 1. System Design
-![Image of System design](./images/System_design.png)
+### <a name="Dashboard"></a> Dashboard
+This "Dashboard" page aims to provide an overview of COVID-19 outbreak in US. 
 
+The data is updated daily.
 
-### 2. Web Page Structure
-
-<img src="./images/Web_Page_Structure.png" width="700" >
-
-#### Dashboard
-This "Dashboard" page aims to provide an overview of COVID-19 outbreak in US. The data is updated daily.
-
-<img src="./images/Dashboard.png" width="700" >
+<img src="https://covid-19-tracking-system.s3.us-east-2.amazonaws.com/images/Dashboard.png" width="700" >
 
 It shows the following informations:
 + Total number of Confirmed Cases(US)
 + Total number of Deaths Cases(US)
 + Total number of Recovered Cases(US)
 
-+ Weekly Cumulative Cases Tracking (line chart)
++ Monthly Cumulative Cases Tracking (line chart)
     + Confirmed
     + Deaths
     + Recovered
@@ -82,17 +82,22 @@ It shows the following informations:
     + Deaths
     + Recovered
 
-#### US Map
-This "US Map" page aims to provide a visiualized overview of the locations in US that have confirmed cases. The data is updated daily.
+### <a name="Global_Map"></a> Global Map
+This "Global Map" page aims to provide a visiualized overview of the locations Globally that have confirmed cases. 
 
-<img src="./images/US_Map.png" width="700" >
-
-
-#### State Cases
-This "State Cases" page aims to provide a table with detailed information for cases categorized by State/County. User can sort the rows based on the attribute selected.
 The data is updated daily.
 
-<img src="./images/State_Cases.png" width="700" >
+<img src="https://covid-19-tracking-system.s3.us-east-2.amazonaws.com/images/Global_Map.png" width="700" >
+
+
+### <a name="State_Cases"></a> State Cases
+This "State Cases" page aims to provide a table with detailed information for cases categorized by State/County. 
+
+User can sort the rows based on the attribute selected.
+
+The data is updated daily.
+
+<img src="https://covid-19-tracking-system.s3.us-east-2.amazonaws.com/images/State_Cases.png" width="700" >
 
 Each rows includes following information:
 + State
@@ -101,55 +106,26 @@ Each rows includes following information:
 + Deaths
 + Recovered
 
-#### Travel Advice
+### <a name="Travel_Advice"></a> Travel Advice
 
-This "Travel Advice" page aims to provide the crucial travel information or travelers and travel related industries. This includes information of the countries with different risk assessment level for COVID-19 according to Centers for Disease Control and Prevention(CDC), and it also provides links to the CDS Travel Information. 
+This "Travel Advice" page aims to provide the crucial travel information or travelers and travel related industries. 
+
+This includes information of the countries with different risk assessment level for COVID-19 according to Centers for Disease Control and Prevention(CDC), and it also provides links to the CDS Travel Information. 
+
 The data is updated daily.
 
-<img src="./images/Travel_Advice.png" width="700" >
+<img src="https://covid-19-tracking-system.s3.us-east-2.amazonaws.com/images/Travel_Advice.png" width="700" >
 
-#### WHO Daily Report
-This "WHO Daily Report" page aims to provide daily updated Situation reports from Word Health Organization(WHO). User can select date from the calender on the right to view the corresponding WHO report. 
+### <a name="WHO_Daily_Report"></a> WHO Daily Report
+This "WHO Daily Report" page aims to provide daily updated Situation reports from Word Health Organization(WHO). Users can select the date from the calendar on the right to view the corresponding WHO report. 
 
-<img src="./images/WHO_Daily_Report.png" width="700" >
+<img src="https://covid-19-tracking-system.s3.us-east-2.amazonaws.com/images/WHO_Daily_Report.png" width="700" >
 
-#### About COVID-19
+### <a name="About_COVID_19"></a> About COVID-19
 This "About COVID-19" page aims to provide the general information about Coronavirus Disease 2019 (COVID-19) according to Centers for Disease Control and Prevention(CDC). 
 
-<img src="./images/About_COVID_19.png" width="700" >
+<img src="https://covid-19-tracking-system.s3.us-east-2.amazonaws.com/images/About_COVID_19.png" width="700" >
 
 It shows the following informations:
 + What is a Conronavirus (COVID-19)?
 + Source and spread of virus.
-
-## <a name="install"></a>Installing *COVID-19 Tracking System*
-
-
-**Required software:**
-+ Node.js  - Download and install Node.js from [Download NodeJS](https://nodejs.org/en/download/)
-+ python3  - Download and install python3 from [Download Python](https://www.python.org/downloads/)
-
-**Install *COVID-19 Tracking System***:
-1. Go to [Github COVID-19-Tracking-System](https://github.com/dongqingye7/COVID-19-Tracking-System) and download the zip file.
-2. Unzip the zipfile
- 
-
-
-
-## <a name="running"></a> Running *COVID-19 Tracking System*
-1. Open a command line terminal, go to this `./COVID-19-Tracking-System` folder 
-2. Type in command line with following code:  
-```
-python3 data_formater.py
-``` 
-(this will fetch the real-time data and create a `data.json` file in the `./scr` folder)
-
-
-3. Type in command line with following code:  
-```
-npm install
-npm install @material-ui/core @material-ui/icons
-npm start
-```
-The *COVID-19 Tracking System* will be open in a browser.
-

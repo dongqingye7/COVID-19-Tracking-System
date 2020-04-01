@@ -3,7 +3,7 @@
 
 import json
 import pandas
-
+import math
 from datetime import date, timedelta
 import requests
 
@@ -135,6 +135,12 @@ valid_states =  ['Alabama','Alaska','Arizona','Arkansas','California','Colorado'
 comfirmed_state_dic = {}
 
 for index,province in enumerate(US_location):
+    lat = province['Lat']
+    lng = province['Long_']
+    if math.isnan(float(lat)) or lat==0:
+        lat = '-'
+    if math.isnan(float(lng)) or lng==0:
+        lng = '-'
     name = province['Province_State']
     if name not in valid_states:
         name = 'Unknown'
@@ -148,8 +154,7 @@ for index,province in enumerate(US_location):
         County = name
     US_location[index]['County'] = County
     
-    lat = province['Lat']
-    lng = province['Long_']
+ 
     US_location[index]['center'] = {}
     US_location[index]['center']['lat'] = lat
     US_location[index]['center']['lng'] = lng
@@ -176,6 +181,12 @@ Global_location = Today_Global_Location.to_dict('records')
 
 comfirmed_country_dic = {}
 for index,country in enumerate(Global_location):
+    lat = country['Lat']
+    lng = country['Long_']
+    if math.isnan(float(lat)) or lat==0:
+        lat = '-'
+    if math.isnan(float(lng)) or lng==0 :
+        lng = '-'
     Country = country['Country_Region']
     Global_location[index]['Country'] = Country
     name = country['Province_State']
@@ -192,9 +203,6 @@ for index,country in enumerate(Global_location):
         County = name
     Global_location[index]['County'] = County
     
-    
-    lat = country['Lat']
-    lng = country['Long_']
     Global_location[index]['center'] = {}
     Global_location[index]['center']['lat'] = lat
     Global_location[index]['center']['lng'] = lng
