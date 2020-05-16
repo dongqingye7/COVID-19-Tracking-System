@@ -4,7 +4,9 @@ http://covid-19-tracking-system.s3-website.us-east-2.amazonaws.com
 ### Presentation Video Demo
 https://youtu.be/Su30Dw8q3pM
 
-#### Winner of 2020 UTA Open Data Day Hackathon
+[![Watch the video](https://img.youtube.com/vi/Su30Dw8q3pM/maxresdefault.jpg)](https://youtu.be/Su30Dw8q3pM)
+## Winner of 2020 UTA Open Data Day Hackathon
+https://devpost.com/software/covid-19-tracking-system
 
 #### Authors
 + Dongchen Ye - [LinkedIn](https://www.linkedin.com/in/dongchenye/) - [GitHub](https://github.com/dongchenye).
