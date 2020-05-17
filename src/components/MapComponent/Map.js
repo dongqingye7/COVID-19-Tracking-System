@@ -46,17 +46,15 @@ const Map = props => {
         
         
         {places.map((place,index) => {
-            place.radius=place.Confirmed;
-            place.options=options1;
             if(place.Confirmed<5000){
-              place.radius=place.Confirmed;
-              place.options=options2;
+              place.radius=place.Confirmed/5;
+              place.options=options1;
             }else if(place.Confirmed<20000){
                 place.radius=place.Confirmed/10;
-                place.options=options3;
+                place.options=options2;
             }else if(place.Confirmed<50000){
-              place.radius=place.Confirmed/50;
-              place.options=options4;
+              place.radius=place.Confirmed/40;
+              place.options=options3;
             }else{
               place.radius=place.Confirmed/80;
               place.options=options4;
